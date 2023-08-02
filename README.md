@@ -1,1 +1,1 @@
-An absolute bare-bones web app.
+Colour preview for GTCEu Modern textures
