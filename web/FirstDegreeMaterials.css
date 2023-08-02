@@ -1,0 +1,751 @@
+.almandine .layer0 {
+    background-color: #FF0000;
+}
+
+.andradite .layer0 {
+    background-color: #967800;
+}
+
+.annealed_copper .layer0 {
+    background-color: #FF8D3B;
+}
+
+.asbestos .layer0 {
+    background-color: #E6E6E6;
+}
+
+.ash .layer0 {
+    background-color: #969696;
+}
+
+.hematite .layer0 {
+    background-color: #915A5A;
+}
+
+.battery_alloy .layer0 {
+    background-color: #9C7CA0;
+}
+
+.blue_topaz .layer0 {
+    background-color: #7B96DC;
+}
+
+.bone .layer0 {
+    background-color: #FAFAFA;
+}
+
+.brass .layer0 {
+    background-color: #FFB400;
+}
+
+.bronze .layer0 {
+    background-color: #FF8000;
+}
+
+.goethite .layer0 {
+    background-color: #C86400;
+}
+
+.calcite .layer0 {
+    background-color: #FAE6DC;
+}
+
+.cassiterite .layer0 {
+    background-color: #DCDCDC;
+}
+
+.cassiterite_sand .layer0 {
+    background-color: #DCDCDC;
+}
+
+.chalcopyrite .layer0 {
+    background-color: #A07828;
+}
+
+.charcoal .layer0 {
+    background-color: #644646;
+}
+
+.chromite .layer0 {
+    background-color: #23140F;
+}
+
+.cinnabar .layer0 {
+    background-color: #960000;
+}
+
+.water .layer0 {
+    background-color: #0000FF;
+}
+
+.liquid_oxygen .layer0 {
+    background-color: #6688DD;
+}
+
+.coal .layer0 {
+    background-color: #464646;
+}
+
+.cobaltite .layer0 {
+    background-color: #5050FA;
+}
+
+.cooperite .layer0 {
+    background-color: #FFFFC8;
+}
+
+.cupronickel .layer0 {
+    background-color: #E39680;
+}
+
+.dark_ash .layer0 {
+    background-color: #323232;
+}
+
+.diamond .layer0 {
+    background-color: #C8FFFF;
+}
+
+.electrum .layer0 {
+    background-color: #FFFF64;
+}
+
+.emerald .layer0 {
+    background-color: #50FF50;
+}
+
+.galena .layer0 {
+    background-color: #643C64;
+}
+
+.garnierite .layer0 {
+    background-color: #32C846;
+}
+
+.green_sapphire .layer0 {
+    background-color: #64C882;
+}
+
+.grossular .layer0 {
+    background-color: #C86400;
+}
+
+.ice .layer0 {
+    background-color: #C8C8FF;
+}
+
+.ilmenite .layer0 {
+    background-color: #463732;
+}
+
+.rutile .layer0 {
+    background-color: #D40D5C;
+}
+
+.bauxite .layer0 {
+    background-color: #C86400;
+}
+
+.invar .layer0 {
+    background-color: #B4B478;
+}
+
+.kanthal .layer0 {
+    background-color: #C2D2DF;
+}
+
+.lazurite .layer0 {
+    background-color: #C8BEFF;
+}
+
+.magnesite .layer0 {
+    background-color: #FAFAB4;
+}
+
+.magnetite .layer0 {
+    background-color: #1E1E1E;
+}
+
+.molybdenite .layer0 {
+    background-color: #191919;
+}
+
+.nichrome .layer0 {
+    background-color: #CDCEF6;
+}
+
+.niobium_nitride .layer0 {
+    background-color: #1D291D;
+}
+
+.niobium_titanium .layer0 {
+    background-color: #1D1D29;
+}
+
+.obsidian .layer0 {
+    background-color: #503264;
+}
+
+.phosphate .layer0 {
+    background-color: #FFFF00;
+}
+
+.platinum_raw .layer0 {
+    background-color: #FFFFC8;
+}
+
+.sterling_silver .layer0 {
+    background-color: #FADCE1;
+}
+
+.rose_gold .layer0 {
+    background-color: #FFE61E;
+}
+
+.black_bronze .layer0 {
+    background-color: #64327D;
+}
+
+.bismuth_bronze .layer0 {
+    background-color: #647D7D;
+}
+
+.biotite .layer0 {
+    background-color: #141E14;
+}
+
+.powellite .layer0 {
+    background-color: #FFFF00;
+}
+
+.pyrite .layer0 {
+    background-color: #967828;
+}
+
+.pyrolusite .layer0 {
+    background-color: #9696AA;
+}
+
+.pyrope .layer0 {
+    background-color: #783264;
+}
+
+.rock_salt .layer0 {
+    background-color: #F0C8C8;
+}
+
+.ruridit .layer0 {
+}
+
+.ruby .layer0 {
+    background-color: #FF6464;
+}
+
+.salt .layer0 {
+    background-color: #FAFAFA;
+}
+
+.saltpeter .layer0 {
+    background-color: #E6E6E6;
+}
+
+.sapphire .layer0 {
+    background-color: #6464C8;
+}
+
+.scheelite .layer0 {
+    background-color: #C88C14;
+}
+
+.sodalite .layer0 {
+    background-color: #1414FF;
+}
+
+.aluminium_sulfite .layer0 {
+    background-color: #CC4BBB;
+}
+
+.tantalite .layer0 {
+    background-color: #915028;
+}
+
+.coke .layer0 {
+    background-color: #666666;
+}
+
+.soldering_alloy .layer0 {
+    background-color: #9696A0;
+}
+
+.spessartine .layer0 {
+    background-color: #FF6464;
+}
+
+.sphalerite .layer0 {
+    background-color: #FFFFFF;
+}
+
+.stainless_steel .layer0 {
+    background-color: #C8C8DC;
+}
+
+.steel .layer0 {
+    background-color: #808080;
+}
+
+.stibnite .layer0 {
+    background-color: #464646;
+}
+
+.tetrahedrite .layer0 {
+    background-color: #C82000;
+}
+
+.tin_alloy .layer0 {
+    background-color: #C8C8C8;
+}
+
+.topaz .layer0 {
+    background-color: #FF8000;
+}
+
+.tungstate .layer0 {
+    background-color: #373223;
+}
+
+.ultimet .layer0 {
+    background-color: #B4B4E6;
+}
+
+.uraninite .layer0 {
+    background-color: #232323;
+}
+
+.uvarovite .layer0 {
+    background-color: #B4ffB4;
+}
+
+.vanadium_gallium .layer0 {
+    background-color: #80808C;
+}
+
+.wrought_iron .layer0 {
+    background-color: #C8B4B4;
+}
+
+.wulfenite .layer0 {
+    background-color: #FF8000;
+}
+
+.yellow_limonite .layer0 {
+    background-color: #C8C800;
+}
+
+.yttrium_barium_cuprate .layer0 {
+    background-color: #504046;
+}
+
+.nether_quartz .layer0 {
+    background-color: #E6D2D2;
+}
+
+.certus_quartz .layer0 {
+    background-color: #D2D2E6;
+}
+
+.quartzite .layer0 {
+    background-color: #D2E6D2;
+}
+
+.graphite .layer0 {
+    background-color: #808080;
+}
+
+.graphene .layer0 {
+    background-color: #808080;
+}
+
+.tungstic_acid .layer0 {
+    background-color: #BCC800;
+}
+
+.osmiridium .layer0 {
+    background-color: #6464FF;
+}
+
+.lithium_chloride .layer0 {
+    background-color: #DEDEFA;
+}
+
+.calcium_chloride .layer0 {
+    background-color: #EBEBFA;
+}
+
+.bornite .layer0 {
+    background-color: #97662B;
+}
+
+.chalcocite .layer0 {
+    background-color: #353535;
+}
+
+.gallium_arsenide .layer0 {
+    background-color: #A0A0A0;
+}
+
+.potash .layer0 {
+    background-color: #784137;
+}
+
+.soda_ash .layer0 {
+    background-color: #DCDCFF;
+}
+
+.indium_gallium_phosphide .layer0 {
+    background-color: #A08CBE;
+}
+
+.nickel_zinc_ferrite .layer0 {
+    background-color: #3C3C3C;
+}
+
+.silicon_dioxide .layer0 {
+    background-color: #C8C8C8;
+}
+
+.magnesium_chloride .layer0 {
+    background-color: #D40D5C;
+}
+
+.sodium_sulfide .layer0 {
+    background-color: #FFE680;
+}
+
+.phosphorus_pentoxide .layer0 {
+    background-color: #DCDC00;
+}
+
+.sodium_bisulfate .layer0 {
+    background-color: #004455;
+}
+
+.ferrite_mixture .layer0 {
+    background-color: #B4B4B4;
+}
+
+.magnesia .layer0 {
+    background-color: #887878;
+}
+
+.platinum_group_sludge .layer0 {
+    background-color: #001E00;
+}
+
+.sodium_bicarbonate .layer0 {
+    background-color: #565b96;
+}
+
+.potassium_dichromate .layer0 {
+    background-color: #FF084E;
+}
+
+.chromium_trioxide .layer0 {
+    background-color: #FFE4E1;
+}
+
+.antimony_trioxide .layer0 {
+    background-color: #E6E6F0;
+}
+
+.zincite .layer0 {
+    background-color: #FFFFF5;
+}
+
+.cupric_oxide .layer0 {
+    background-color: #0F0F0F;
+}
+
+.cobalt_oxide .layer0 {
+    background-color: #788000;
+}
+
+.arsenic_trioxide .layer0 {
+}
+
+.massicot .layer0 {
+    background-color: #FFDD55;
+}
+
+.ferrosilite .layer0 {
+    background-color: #97632A;
+}
+
+.metal_mixture .layer0 {
+    background-color: #502d16;
+}
+
+.sodium_hydroxide .layer0 {
+    background-color: #003380;
+}
+
+.sodium_persulfate .layer0 {
+}
+
+.bastnasite .layer0 {
+    background-color: #C86E2D;
+}
+
+.pentlandite .layer0 {
+    background-color: #A59605;
+}
+
+.spodumene .layer0 {
+    background-color: #BEAAAA;
+}
+
+.lepidolite .layer0 {
+    background-color: #F0328C;
+}
+
+.glauconite_sand .layer0 {
+    background-color: #82B43C;
+}
+
+.malachite .layer0 {
+    background-color: #055F05;
+}
+
+.mica .layer0 {
+    background-color: #C3C3CD;
+}
+
+.barite .layer0 {
+    background-color: #E6EBEB;
+}
+
+.alunite .layer0 {
+    background-color: #E1B441;
+}
+
+.talc .layer0 {
+    background-color: #5AB45A;
+}
+
+.soapstone .layer0 {
+    background-color: #5F915F;
+}
+
+.kyanite .layer0 {
+    background-color: #6E6EFA;
+}
+
+.magnetic_iron .layer0 {
+    background-color: #C8C8C8;
+}
+
+.tungsten_carbide .layer0 {
+    background-color: #330066;
+}
+
+.carbon_dioxide .layer0 {
+    background-color: #A9D0F5;
+}
+
+.titanium_tetrachloride .layer0 {
+    background-color: #D40D5C;
+}
+
+.nitrogen_dioxide .layer0 {
+    background-color: #85FCFF;
+}
+
+.hydrogen_sulfide .layer0 {
+}
+
+.nitric_acid .layer0 {
+    background-color: #CCCC00;
+}
+
+.sulfuric_acid .layer0 {
+}
+
+.phosphoric_acid .layer0 {
+    background-color: #DCDC01;
+}
+
+.sulfur_trioxide .layer0 {
+    background-color: #A0A014;
+}
+
+.sulfur_dioxide .layer0 {
+    background-color: #0E4880;
+}
+
+.hypochlorous_acid .layer0 {
+    background-color: #6F8A91;
+}
+
+.ammonia .layer0 {
+    background-color: #3F3480;
+}
+
+.hydrofluoric_acid .layer0 {
+    background-color: #0088AA;
+}
+
+.nitric_oxide .layer0 {
+    background-color: #7DC8F0;
+}
+
+.iron_iii_chloride .layer0 {
+    background-color: #060B0B;
+}
+
+.uranium_hexafluoride .layer0 {
+    background-color: #42D126;
+}
+
+.enriched_uranium_hexafluoride .layer0 {
+    background-color: #4BF52A;
+}
+
+.depleted_uranium_hexafluoride .layer0 {
+    background-color: #74BA66;
+}
+
+.nitrous_oxide .layer0 {
+    background-color: #7DC8FF;
+}
+
+.ender_pearl .layer0 {
+    background-color: #6CDCC8;
+}
+
+.potassium_feldspar .layer0 {
+    background-color: #782828;
+}
+
+.magnetic_neodymium .layer0 {
+    background-color: #646464;
+}
+
+.hydrochloric_acid .layer0 {
+}
+
+.steam .layer0 {
+}
+
+.distilled_water .layer0 {
+    background-color: #4A94FF;
+}
+
+.sodium_potassium .layer0 {
+    background-color: #64FCB4;
+}
+
+.magnetic_samarium .layer0 {
+    background-color: #FFFFCD;
+}
+
+.manganese_phosphide .layer0 {
+    background-color: #E1B454;
+}
+
+.magnesium_diboride .layer0 {
+    background-color: #331900;
+}
+
+.mercury_barium_calcium_cuprate .layer0 {
+    background-color: #555555;
+}
+
+.uranium_triplatinum .layer0 {
+    background-color: #008700;
+}
+
+.samarium_iron_arsenic_oxide .layer0 {
+    background-color: #330033;
+}
+
+.indium_tin_barium_titanium_cuprate .layer0 {
+    background-color: #994C00;
+}
+
+.uranium_rhodium_dinaquadide .layer0 {
+    background-color: #0A0A0A;
+}
+
+.enriched_naquadah_trinium_europium_duranide .layer0 {
+    background-color: #FFFFFF;
+}
+
+.inert_metal_mixture .layer0 {
+    background-color: #E2AE72;
+}
+
+.rhodium_sulfate .layer0 {
+    background-color: #EEAA55;
+}
+
+.ruthenium_tetroxide .layer0 {
+    background-color: #C7C7C7;
+}
+
+.osmium_tetroxide .layer0 {
+    background-color: #ACAD71;
+}
+
+.iridium_chloride .layer0 {
+    background-color: #013220;
+}
+
+.fluoroantimonic_acid .layer0 {
+}
+
+.titanium_trifluoride .layer0 {
+    background-color: #8F00FF;
+}
+
+.calcium_phosphide .layer0 {
+    background-color: #A52A2A;
+}
+
+.indium_phosphide .layer0 {
+    background-color: #582E5C;
+}
+
+.barium_sulfide .layer0 {
+    background-color: #F0EAD6;
+}
+
+.trinium_sulfide .layer0 {
+    background-color: #E68066;
+}
+
+.zinc_sulfide .layer0 {
+    background-color: #FFFFF6;
+}
+
+.gallium_sulfide .layer0 {
+    background-color: #FFF59E;
+}
+
+.antimony_trifluoride .layer0 {
+    background-color: #F7EABC;
+}
+
+.enriched_naquadah_sulfate .layer0 {
+    background-color: #2E2E1C;
+}
+
+.naquadria_sulfate .layer0 {
+    background-color: #006633;
+}
+
+.pyrochlore .layer0 {
+    background-color: #2B1100;
+}
+
+.liquid_helium .layer0 {
+    background-color: #FCFF90;
+}
