@@ -1,3 +1,5 @@
+// ignore_for_file: constant_identifier_names
+
 import "dart:html";
 
 import "package:LoaderLib/Loader.dart";
@@ -38,26 +40,12 @@ enum IconSet with EnumName {
     try {
       return await Loader.getResource<ImageElement>("material_sets/${this.name}/$name.png");
     }
-    catch(e) {
+    on Exception {
       if (this.parent != null) {
         return parent!.getIcon(name);
       }
       return null;
     }
-
-
-    // ImageElement attempt = new ImageElement(src: "material_sets/${this.name}/$name.png")
-    //   ..onLoad.first.then((Event e) {
-    //     return attempt;
-    //   } );
-    // try {
-    //   await attempt.onLoad.first;
-    //   return attempt;
-    // }
-    // catch(e) {
-    //   print(e);
-    //
-    // }
   }
 
 }

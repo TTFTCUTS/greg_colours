@@ -56,3 +56,7 @@ html, body {
     background-size: 100%;
     background-blend-mode:multiply;
 }
+
+.hidden {
+    display: none;
+}
