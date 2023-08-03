@@ -3,11 +3,21 @@ import 'dart:html';
 import "package:CommonLib/Utility.dart";
 import "package:LoaderLib/Loader.dart";
 
+import "icongenerator.dart";
 import "iconset.dart";
 import "material.dart";
 import "utils.dart";
 
 Future<void> main() async {
+  final GeneratedIconSet iconSet = new GeneratedIconSet(new TestProcessor());
+
+  final String inputString = "revised/material_sets/dull/ingot.png";
+  final String outputString = "revised/material_sets/dull/ingot_secondary.png";
+
+  await iconSet.processIcon(inputString, outputString);
+
+  Loader.mountDataPack(iconSet.archive);
+
   print("begin");
 
   final Element topBarElement = querySelector("#topbar")!;
