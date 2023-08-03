@@ -29,8 +29,14 @@ class TestProcessor extends IconGenerator {
     // pass to get min and max
     for (int i = 0; i<width*height; i++) {
       final int index = i*4;
-      if (data[index] < min) { min = data[index]; }
-      if (data[index] > max) { max = data[index]; }
+      if (data[index+3] > 0) {
+        if (data[index] < min) {
+          min = data[index];
+        }
+        if (data[index] > max) {
+          max = data[index];
+        }
+      }
     }
 
     // process
@@ -42,7 +48,7 @@ class TestProcessor extends IconGenerator {
 
       final double fraction = (bright - min) / (max - min);
 
-      data[index+3] = (alpha * fraction).floor();
+      data[index+3] = (alpha * (1-fraction)).floor();
     }
 
     ctx.putImageData(imgData, 0, 0);
