@@ -5,40 +5,86 @@ import "package:LoaderLib/Loader.dart";
 
 import "iconset.dart";
 import "material.dart";
+import "utils.dart";
 
 Future<void> main() async {
+  print("begin");
+
   final Element topBarElement = querySelector("#topbar")!;
   final Element mainElement = querySelector("#main")!;
 
-  print("begin");
-  final List<Material> sortedMaterials = new List<Material>.from(Material.values)..sort((Material a, Material b) => a.name.compareTo(b.name));
+  // material sets
+  final Map<String, List<Material>> materialSets = <String, List<Material>>{
+    "original": OriginalMaterials.values,
+    "revised": OriginalMaterials.values,
+  };
 
-  final Map<Material,Element> materialElements = <Material,Element>{};
+  // process material names
+  final Set<String> allMaterialNames = <String>{};
 
-  final Element searchBox = Search.createListSearchBox(() => sortedMaterials, (Set<Material>? searchResults) {
+  for (final List<Material> materials in materialSets.values) {
+    for (final Material material in materials) {
+      allMaterialNames.add(material.name);
+    }
+  }
+
+  final List<String> sortedMaterialNames = new List<String>.from(allMaterialNames)..sort();
+
+  final Map<String,Element> materialElements = <String,Element>{};
+
+  // search box
+  final Element searchBox = Search.createListSearchBox(() => sortedMaterialNames, (Set<String>? searchResults) {
     if (searchResults == null) { return; }
-    for (final Material mat in materialElements.keys) {
-      if (!searchResults.contains(mat)) {
-        materialElements[mat]!.classes.add("hidden");
+    for (final String matName in materialElements.keys) {
+      if (!searchResults.contains(matName)) {
+        materialElements[matName]!.classes.add("hidden");
       }
       else {
-        materialElements[mat]!.classes.remove("hidden");
+        materialElements[matName]!.classes.remove("hidden");
       }
     }
-  }, mapping: (Material mat) => mat.name);
+  });
 
   topBarElement.append(searchBox);
 
-  await Future.wait(sortedMaterials.map((Material mat) async {
-    final Element materialElement = await materialPreview(mat);
+  // set selector
+  final SelectElement setSelector = new SelectElement();
 
-    materialElements[mat] = materialElement;
+  for (final String setName in materialSets.keys) {
+    final OptionElement option = new OptionElement(data: setName, value: setName);
+    setSelector.append(option);
+  }
+
+  void displayMaterialSet(String? set) {
+    for (final Element element in querySelectorAll(".materialset")) {
+      element.classes.add("hidden");
+    }
+    for (final Element element in querySelectorAll(".materialset.$set")) {
+      element.classes.remove("hidden");
+    }
+  }
+
+  setSelector.onChange.listen((Event e) {
+    displayMaterialSet(setSelector.value);
+  });
+
+  topBarElement.append(setSelector);
+
+  // process materials
+  final Map<String,Map<String,Material>> materialsByName = getMaterialsByName(materialSets);
+
+  await Future.wait(materialsByName.keys.map((String matName) async {
+
+    final Element materialElement = await materialPreview(matName, materialsByName[matName]!);
+
+    materialElements[matName] = materialElement;
   }));
 
   for (final Element e in materialElements.values) {
     mainElement.append(e);
   }
 
+  displayMaterialSet(setSelector.value);
   print("done");
 }
 
@@ -47,35 +93,42 @@ const List<String> itemTypes = <String>["bolt", "crushed", "crushed_purified", "
   "raw_ore", "ring", "rod", "rod_long", "rotor", "round", "screw", "spring", "spring_small", "tool_head_buzz_saw", "tool_head_chainsaw", "tool_head_drill", "tool_head_screwdriver",
   "tool_head_wrench", "turbine_blade", "wire_fine"];
 
-Future<Element> materialPreview(Material mat) async {
-  print("Processing material: ${mat.name}");
+Future<Element> materialPreview(String matName, Map<String,Material> materials) async {
+  print("Processing material: $matName");
 
   final DivElement container = new DivElement()..className = "material";
-  container.append(new HeadingElement.h2()..text = mat.name);
+  container.append(new HeadingElement.h2()..text = matName);
 
-  await Future.wait(itemTypes.map((String item) => itemPreview(item, mat))).then((List<Element> previews) {
-    for (final Element e in previews) {
-      container.append(e);
-    }
-  } );
+  for (final String materialSet in materials.keys) {
+    final Element setContainer = new DivElement()..className="materialset $materialSet";
+    final Material material = materials[materialSet]!;
+
+    await Future.wait(itemTypes.map((String item) => itemPreview(item, materialSet, material))).then((List<Element> previews) {
+      for (final Element e in previews) {
+        setContainer.append(e);
+      }
+    } );
+
+    container.append(setContainer);
+  }
 
   //window.console.log(container);
 
   return container;
 }
 
-Future<Element> itemPreview(String item, Material mat) async {
+Future<Element> itemPreview(String item, String materialSet, Material mat) async {
   //print("Processing item: ${mat.name} $item");
 
   final DivElement container = new DivElement()..className = "icon ${mat.name} $item";
 
-  final Map<String,String> layers = await getItemLayers(item, mat);
+  final Map<String,String> layers = await getItemLayers(item, materialSet, mat);
 
   await Future.wait(layers.entries.map((MapEntry<String,String> entry) async {
-    final String url = "material_sets/${entry.value}.png";
+    final String url = "$materialSet/material_sets/${entry.value}.png";
     final ImageElement? icon = await Loader.getResource(url);
     if (icon != null) {
-      return new DivElement()..className = "img ${entry.key}"..style.backgroundImage = "url($url)"..style.maskImage = "url($url)";
+      return new DivElement()..className = "img ${entry.key}"..style.backgroundImage = "url(${icon.src})"..style.maskImage = "url(${icon.src})";
     }
   })).then((List<Element?> elements) {
     for (final Element? element in elements) {
@@ -88,17 +141,17 @@ Future<Element> itemPreview(String item, Material mat) async {
   return container;
 }
 
-Future<Map<String,String>> getItemLayers(String item, Material mat) async {
+Future<Map<String,String>> getItemLayers(String item, String materialSet, Material mat) async {
   final Map<String,String> layers = <String,String>{};
 
-  await _getItemLayers(item, mat.iconSet, layers);
+  await _getItemLayers(item, materialSet, mat.iconSet, layers);
 
   return layers;
 }
 
-Future<void> _getItemLayers(String fileName, IconSet iconSet, Map<String,String> layers) async {
+Future<void> _getItemLayers(String fileName, String materialSet, IconSet iconSet, Map<String,String> layers) async {
   try {
-    final String path = "models/${iconSet.name}/$fileName.json";
+    final String path = "$materialSet/models/${iconSet.name}/$fileName.json";
     final Map<String, dynamic> json = await Loader.getResource(path, format: Formats.json);
 
     if (json.containsKey("parent")) {
@@ -112,7 +165,7 @@ Future<void> _getItemLayers(String fileName, IconSet iconSet, Map<String,String>
           final IconSet set = IconSet.values.where((IconSet set) => set.name == parts.first).first;
           //print(set);
           
-          await _getItemLayers(parts.last, set, layers);
+          await _getItemLayers(parts.last, materialSet, set, layers);
         }
       }
     }
@@ -135,7 +188,24 @@ Future<void> _getItemLayers(String fileName, IconSet iconSet, Map<String,String>
   on Exception {
     //print("caught error for ${iconSet.name}, file: $fileName, parent: ${iconSet.parent}");
     if (iconSet.parent != null) {
-      await _getItemLayers(fileName, iconSet.parent!, layers);
+      await _getItemLayers(fileName, materialSet, iconSet.parent!, layers);
     }
   }
+}
+
+Map<String, Map<String,Material>> getMaterialsByName(Map<String,List<Material>> materialSets) {
+  final Map<String,Map<String,Material>> materialMapping = <String,Map<String,Material>>{};
+
+  for(final String setName in materialSets.keys) {
+    final List<Material> materials = materialSets[setName]!;
+
+    for (final Material mat in materials) {
+      if (!materialMapping.containsKey(mat.name)) {
+        materialMapping[mat.name] = <String,Material>{};
+      }
+      materialMapping[mat.name]![setName] = mat;
+    }
+  }
+
+  return materialMapping;
 }

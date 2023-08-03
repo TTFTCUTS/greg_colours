@@ -1,0 +1,470 @@
+.revised .wood_gas .layer0 {
+    background-color: #DECD87;
+}
+
+.revised .wood_vinegar .layer0 {
+    background-color: #D45500;
+}
+
+.revised .wood_tar .layer0 {
+    background-color: #28170B;
+}
+
+.revised .charcoal_byproducts .layer0 {
+    background-color: #784421;
+}
+
+.revised .biomass .layer0 {
+    background-color: #00FF00;
+}
+
+.revised .bio_diesel .layer0 {
+    background-color: #FF8000;
+}
+
+.revised .fermented_biomass .layer0 {
+    background-color: #445500;
+}
+
+.revised .creosote .layer0 {
+    background-color: #804000;
+}
+
+.revised .diesel .layer0 {
+}
+
+.revised .rocket_fuel .layer0 {
+}
+
+.revised .glue .layer0 {
+}
+
+.revised .lubricant .layer0 {
+}
+
+.revised .mc_guffium_239 .layer0 {
+}
+
+.revised .indium_concentrate .layer0 {
+    background-color: #0E2950;
+}
+
+.revised .seed_oil .layer0 {
+    background-color: #FFFFFF;
+}
+
+.revised .drilling_fluid .layer0 {
+    background-color: #FFFFAA;
+}
+
+.revised .construction_foam .layer0 {
+    background-color: #808080;
+}
+
+.revised .sulfuric_heavy_fuel .layer0 {
+}
+
+.revised .heavy_fuel .layer0 {
+}
+
+.revised .lightly_hydro_cracked_heavy_fuel .layer0 {
+    background-color: #FFFF00;
+}
+
+.revised .severely_hydro_cracked_heavy_fuel .layer0 {
+    background-color: #FFFF00;
+}
+
+.revised .lightly_steam_cracked_heavy_fuel .layer0 {
+}
+
+.revised .severely_steam_cracked_heavy_fuel .layer0 {
+}
+
+.revised .sulfuric_light_fuel .layer0 {
+}
+
+.revised .light_fuel .layer0 {
+}
+
+.revised .lightly_hydro_cracked_light_fuel .layer0 {
+    background-color: #B7AF08;
+}
+
+.revised .severely_hydro_cracked_light_fuel .layer0 {
+    background-color: #B7AF08;
+}
+
+.revised .lightly_steam_cracked_light_fuel .layer0 {
+}
+
+.revised .severely_steam_cracked_light_fuel .layer0 {
+}
+
+.revised .sulfuric_naphtha .layer0 {
+}
+
+.revised .naphtha .layer0 {
+}
+
+.revised .lightly_hydro_cracked_naphtha .layer0 {
+    background-color: #BFB608;
+}
+
+.revised .severely_hydro_cracked_naphtha .layer0 {
+    background-color: #BFB608;
+}
+
+.revised .lightly_steam_cracked_naphtha .layer0 {
+    background-color: #BFB608;
+}
+
+.revised .severely_steam_cracked_naphtha .layer0 {
+    background-color: #BFB608;
+}
+
+.revised .sulfuric_gas .layer0 {
+}
+
+.revised .refinery_gas .layer0 {
+}
+
+.revised .lightly_hydro_cracked_gas .layer0 {
+    background-color: #B4B4B4;
+}
+
+.revised .severely_hydro_cracked_gas .layer0 {
+    background-color: #B4B4B4;
+}
+
+.revised .lightly_steam_cracked_gas .layer0 {
+    background-color: #B4B4B4;
+}
+
+.revised .severely_steam_cracked_gas .layer0 {
+    background-color: #B4B4B4;
+}
+
+.revised .hydro_cracked_ethane .layer0 {
+    background-color: #9696BC;
+}
+
+.revised .hydro_cracked_ethylene .layer0 {
+    background-color: #A3A3A0;
+}
+
+.revised .hydro_cracked_propene .layer0 {
+    background-color: #BEA540;
+}
+
+.revised .hydro_cracked_propane .layer0 {
+    background-color: #BEA540;
+}
+
+.revised .hydro_cracked_butane .layer0 {
+    background-color: #852C18;
+}
+
+.revised .hydro_cracked_butene .layer0 {
+    background-color: #993E05;
+}
+
+.revised .hydro_cracked_butadiene .layer0 {
+    background-color: #AD5203;
+}
+
+.revised .steam_cracked_ethane .layer0 {
+    background-color: #9696BC;
+}
+
+.revised .steam_cracked_ethylene .layer0 {
+    background-color: #A3A3A0;
+}
+
+.revised .steam_cracked_propene .layer0 {
+    background-color: #BEA540;
+}
+
+.revised .steam_cracked_propane .layer0 {
+    background-color: #BEA540;
+}
+
+.revised .steam_cracked_butane .layer0 {
+    background-color: #852C18;
+}
+
+.revised .steam_cracked_butene .layer0 {
+    background-color: #993E05;
+}
+
+.revised .steam_cracked_butadiene .layer0 {
+    background-color: #AD5203;
+}
+
+.revised .lpg .layer0 {
+}
+
+.revised .raw_growth_medium .layer0 {
+    background-color: #A47351;
+}
+
+.revised .sterilized_growth_medium .layer0 {
+    background-color: #AC876E;
+}
+
+.revised .oil .layer0 {
+    background-color: #0A0A0A;
+}
+
+.revised .oil_heavy .layer0 {
+    background-color: #0A0A0A;
+}
+
+.revised .oil_medium .layer0 {
+    background-color: #0A0A0A;
+}
+
+.revised .oil_light .layer0 {
+    background-color: #0A0A0A;
+}
+
+.revised .natural_gas .layer0 {
+}
+
+.revised .bacteria .layer0 {
+    background-color: #808000;
+}
+
+.revised .bacterial_sludge .layer0 {
+    background-color: #355E3B;
+}
+
+.revised .enriched_bacterial_sludge .layer0 {
+    background-color: #7FFF00;
+}
+
+.revised .mutagen .layer0 {
+    background-color: #00FF7F;
+}
+
+.revised .gelatin_mixture .layer0 {
+    background-color: #588BAE;
+}
+
+.revised .raw_gasoline .layer0 {
+    background-color: #FF6400;
+}
+
+.revised .gasoline .layer0 {
+    background-color: #FAA500;
+}
+
+.revised .high_octane_gasoline .layer0 {
+    background-color: #FFA500;
+}
+
+.revised .coal_gas .layer0 {
+    background-color: #333333;
+}
+
+.revised .coal_tar .layer0 {
+    background-color: #1A1A1A;
+}
+
+.revised .gunpowder .layer0 {
+    background-color: #808080;
+}
+
+.revised .oilsands .layer0 {
+    background-color: #0A0A0A;
+}
+
+.revised .rare_earth .layer0 {
+    background-color: #808064;
+}
+
+.revised .stone .layer0 {
+    background-color: #CDCDCD;
+}
+
+.revised .lava .layer0 {
+    background-color: #FF4000;
+}
+
+.revised .glowstone .layer0 {
+    background-color: #FFFF00;
+}
+
+.revised .nether_star .layer0 {
+}
+
+.revised .endstone .layer0 {
+    background-color: #D9DE9E;
+}
+
+.revised .netherrack .layer0 {
+    background-color: #C80000;
+}
+
+.revised .cetane_boosted_diesel .layer0 {
+    background-color: #C8FF00;
+}
+
+.revised .collagen .layer0 {
+    background-color: #80471C;
+}
+
+.revised .gelatin .layer0 {
+    background-color: #588BAE;
+}
+
+.revised .agar .layer0 {
+    background-color: #4F7942;
+}
+
+.revised .milk .layer0 {
+    background-color: #FEFEFE;
+}
+
+.revised .cocoa .layer0 {
+    background-color: #643200;
+}
+
+.revised .wheat .layer0 {
+    background-color: #FFFFC4;
+}
+
+.revised .meat .layer0 {
+    background-color: #C14C4C;
+}
+
+.revised .wood .layer0 {
+    background-color: #643200;
+}
+
+.revised .paper .layer0 {
+    background-color: #FAFAFA;
+}
+
+.revised .fish_oil .layer0 {
+    background-color: #DCC15D;
+}
+
+.revised .ruby_slurry .layer0 {
+    background-color: #ff6464;
+}
+
+.revised .sapphire_slurry .layer0 {
+    background-color: #6464c8;
+}
+
+.revised .green_sapphire_slurry .layer0 {
+    background-color: #64c882;
+}
+
+.revised .black_dye .layer0 {
+    background-color: #202020;
+}
+
+.revised .red_dye .layer0 {
+    background-color: #FF0000;
+}
+
+.revised .green_dye .layer0 {
+    background-color: #00FF00;
+}
+
+.revised .brown_dye .layer0 {
+    background-color: #604000;
+}
+
+.revised .blue_dye .layer0 {
+    background-color: #0020FF;
+}
+
+.revised .purple_dye .layer0 {
+    background-color: #800080;
+}
+
+.revised .cyan_dye .layer0 {
+    background-color: #00FFFF;
+}
+
+.revised .light_gray_dye .layer0 {
+    background-color: #C0C0C0;
+}
+
+.revised .gray_dye .layer0 {
+    background-color: #808080;
+}
+
+.revised .pink_dye .layer0 {
+    background-color: #FFC0C0;
+}
+
+.revised .lime_dye .layer0 {
+    background-color: #80FF80;
+}
+
+.revised .yellow_dye .layer0 {
+    background-color: #FFFF00;
+}
+
+.revised .light_blue_dye .layer0 {
+    background-color: #6080FF;
+}
+
+.revised .magenta_dye .layer0 {
+    background-color: #FF00FF;
+}
+
+.revised .orange_dye .layer0 {
+    background-color: #FF8000;
+}
+
+.revised .white_dye .layer0 {
+    background-color: #FFFFFF;
+}
+
+.revised .impure_enriched_naquadah_solution .layer0 {
+    background-color: #388438;
+}
+
+.revised .enriched_naquadah_solution .layer0 {
+    background-color: #3AAD3A;
+}
+
+.revised .acidic_enriched_naquadah_solution .layer0 {
+    background-color: #3DD63D;
+}
+
+.revised .enriched_naquadah_waste .layer0 {
+    background-color: #355B35;
+}
+
+.revised .impure_naquadria_solution .layer0 {
+    background-color: #518451;
+}
+
+.revised .naquadria_solution .layer0 {
+    background-color: #61AD61;
+}
+
+.revised .acidic_naquadria_solution .layer0 {
+    background-color: #70D670;
+}
+
+.revised .naquadria_waste .layer0 {
+    background-color: #425B42;
+}
+
+.revised .lapotron .layer0 {
+    background-color: #2C39B1;
+}
+
+.revised .treated_wood .layer0 {
+    background-color: #502800;
+}
+
+.revised .uu_matter .layer0 {
+}

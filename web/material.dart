@@ -3,7 +3,7 @@
 import "iconset.dart";
 import "utils.dart";
 
-enum Material with EnumName {
+enum OriginalMaterials with Material {
   // ELEMENTS
   actinium.metallic(),
   aluminium(),
@@ -614,30 +614,31 @@ enum Material with EnumName {
   uu_matter(),
   ;
 
+  @override
   final IconSet iconSet;
 
-  const Material([IconSet this.iconSet = IconSet.dull]);
+  const OriginalMaterials([IconSet this.iconSet = IconSet.dull]);
 
-  const Material.metallic():this(IconSet.metallic);
-  const Material.shiny():this(IconSet.shiny);
-  const Material.gas():this(IconSet.gas);
-  const Material.bright():this(IconSet.bright);
-  const Material.rubySet():this(IconSet.ruby);
-  const Material.gem_horizontal():this(IconSet.gem_horizontal);
-  const Material.gem_vertical():this(IconSet.gem_vertical);
-  const Material.sand():this(IconSet.sand);
-  const Material.fine():this(IconSet.fine);
-  const Material.emeraldSet():this(IconSet.emerald);
-  const Material.diamondSet():this(IconSet.diamond);
-  const Material.ligniteSet():this(IconSet.lignite);
-  const Material.rough():this(IconSet.rough);
-  const Material.lapisSet():this(IconSet.lapis);
-  const Material.quartz():this(IconSet.quartz);
-  const Material.certus():this(IconSet.certus);
-  const Material.flintSet():this(IconSet.flint);
-  const Material.magnetic():this(IconSet.magnetic);
-  const Material.woodSet():this(IconSet.wood);
-  const Material.glassSet():this(IconSet.glass);
-  const Material.opalSet():this(IconSet.opal);
-  const Material.netherstar():this(IconSet.netherstar);
+  const OriginalMaterials.metallic():this(IconSet.metallic);
+  const OriginalMaterials.shiny():this(IconSet.shiny);
+  const OriginalMaterials.gas():this(IconSet.gas);
+  const OriginalMaterials.bright():this(IconSet.bright);
+  const OriginalMaterials.rubySet():this(IconSet.ruby);
+  const OriginalMaterials.gem_horizontal():this(IconSet.gem_horizontal);
+  const OriginalMaterials.gem_vertical():this(IconSet.gem_vertical);
+  const OriginalMaterials.sand():this(IconSet.sand);
+  const OriginalMaterials.fine():this(IconSet.fine);
+  const OriginalMaterials.emeraldSet():this(IconSet.emerald);
+  const OriginalMaterials.diamondSet():this(IconSet.diamond);
+  const OriginalMaterials.ligniteSet():this(IconSet.lignite);
+  const OriginalMaterials.rough():this(IconSet.rough);
+  const OriginalMaterials.lapisSet():this(IconSet.lapis);
+  const OriginalMaterials.quartz():this(IconSet.quartz);
+  const OriginalMaterials.certus():this(IconSet.certus);
+  const OriginalMaterials.flintSet():this(IconSet.flint);
+  const OriginalMaterials.magnetic():this(IconSet.magnetic);
+  const OriginalMaterials.woodSet():this(IconSet.wood);
+  const OriginalMaterials.glassSet():this(IconSet.glass);
+  const OriginalMaterials.opalSet():this(IconSet.opal);
+  const OriginalMaterials.netherstar():this(IconSet.netherstar);
 }

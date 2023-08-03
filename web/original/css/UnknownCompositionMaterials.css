@@ -1,0 +1,470 @@
+.original .wood_gas .layer0 {
+    background-color: #DECD87;
+}
+
+.original .wood_vinegar .layer0 {
+    background-color: #D45500;
+}
+
+.original .wood_tar .layer0 {
+    background-color: #28170B;
+}
+
+.original .charcoal_byproducts .layer0 {
+    background-color: #784421;
+}
+
+.original .biomass .layer0 {
+    background-color: #00FF00;
+}
+
+.original .bio_diesel .layer0 {
+    background-color: #FF8000;
+}
+
+.original .fermented_biomass .layer0 {
+    background-color: #445500;
+}
+
+.original .creosote .layer0 {
+    background-color: #804000;
+}
+
+.original .diesel .layer0 {
+}
+
+.original .rocket_fuel .layer0 {
+}
+
+.original .glue .layer0 {
+}
+
+.original .lubricant .layer0 {
+}
+
+.original .mc_guffium_239 .layer0 {
+}
+
+.original .indium_concentrate .layer0 {
+    background-color: #0E2950;
+}
+
+.original .seed_oil .layer0 {
+    background-color: #FFFFFF;
+}
+
+.original .drilling_fluid .layer0 {
+    background-color: #FFFFAA;
+}
+
+.original .construction_foam .layer0 {
+    background-color: #808080;
+}
+
+.original .sulfuric_heavy_fuel .layer0 {
+}
+
+.original .heavy_fuel .layer0 {
+}
+
+.original .lightly_hydro_cracked_heavy_fuel .layer0 {
+    background-color: #FFFF00;
+}
+
+.original .severely_hydro_cracked_heavy_fuel .layer0 {
+    background-color: #FFFF00;
+}
+
+.original .lightly_steam_cracked_heavy_fuel .layer0 {
+}
+
+.original .severely_steam_cracked_heavy_fuel .layer0 {
+}
+
+.original .sulfuric_light_fuel .layer0 {
+}
+
+.original .light_fuel .layer0 {
+}
+
+.original .lightly_hydro_cracked_light_fuel .layer0 {
+    background-color: #B7AF08;
+}
+
+.original .severely_hydro_cracked_light_fuel .layer0 {
+    background-color: #B7AF08;
+}
+
+.original .lightly_steam_cracked_light_fuel .layer0 {
+}
+
+.original .severely_steam_cracked_light_fuel .layer0 {
+}
+
+.original .sulfuric_naphtha .layer0 {
+}
+
+.original .naphtha .layer0 {
+}
+
+.original .lightly_hydro_cracked_naphtha .layer0 {
+    background-color: #BFB608;
+}
+
+.original .severely_hydro_cracked_naphtha .layer0 {
+    background-color: #BFB608;
+}
+
+.original .lightly_steam_cracked_naphtha .layer0 {
+    background-color: #BFB608;
+}
+
+.original .severely_steam_cracked_naphtha .layer0 {
+    background-color: #BFB608;
+}
+
+.original .sulfuric_gas .layer0 {
+}
+
+.original .refinery_gas .layer0 {
+}
+
+.original .lightly_hydro_cracked_gas .layer0 {
+    background-color: #B4B4B4;
+}
+
+.original .severely_hydro_cracked_gas .layer0 {
+    background-color: #B4B4B4;
+}
+
+.original .lightly_steam_cracked_gas .layer0 {
+    background-color: #B4B4B4;
+}
+
+.original .severely_steam_cracked_gas .layer0 {
+    background-color: #B4B4B4;
+}
+
+.original .hydro_cracked_ethane .layer0 {
+    background-color: #9696BC;
+}
+
+.original .hydro_cracked_ethylene .layer0 {
+    background-color: #A3A3A0;
+}
+
+.original .hydro_cracked_propene .layer0 {
+    background-color: #BEA540;
+}
+
+.original .hydro_cracked_propane .layer0 {
+    background-color: #BEA540;
+}
+
+.original .hydro_cracked_butane .layer0 {
+    background-color: #852C18;
+}
+
+.original .hydro_cracked_butene .layer0 {
+    background-color: #993E05;
+}
+
+.original .hydro_cracked_butadiene .layer0 {
+    background-color: #AD5203;
+}
+
+.original .steam_cracked_ethane .layer0 {
+    background-color: #9696BC;
+}
+
+.original .steam_cracked_ethylene .layer0 {
+    background-color: #A3A3A0;
+}
+
+.original .steam_cracked_propene .layer0 {
+    background-color: #BEA540;
+}
+
+.original .steam_cracked_propane .layer0 {
+    background-color: #BEA540;
+}
+
+.original .steam_cracked_butane .layer0 {
+    background-color: #852C18;
+}
+
+.original .steam_cracked_butene .layer0 {
+    background-color: #993E05;
+}
+
+.original .steam_cracked_butadiene .layer0 {
+    background-color: #AD5203;
+}
+
+.original .lpg .layer0 {
+}
+
+.original .raw_growth_medium .layer0 {
+    background-color: #A47351;
+}
+
+.original .sterilized_growth_medium .layer0 {
+    background-color: #AC876E;
+}
+
+.original .oil .layer0 {
+    background-color: #0A0A0A;
+}
+
+.original .oil_heavy .layer0 {
+    background-color: #0A0A0A;
+}
+
+.original .oil_medium .layer0 {
+    background-color: #0A0A0A;
+}
+
+.original .oil_light .layer0 {
+    background-color: #0A0A0A;
+}
+
+.original .natural_gas .layer0 {
+}
+
+.original .bacteria .layer0 {
+    background-color: #808000;
+}
+
+.original .bacterial_sludge .layer0 {
+    background-color: #355E3B;
+}
+
+.original .enriched_bacterial_sludge .layer0 {
+    background-color: #7FFF00;
+}
+
+.original .mutagen .layer0 {
+    background-color: #00FF7F;
+}
+
+.original .gelatin_mixture .layer0 {
+    background-color: #588BAE;
+}
+
+.original .raw_gasoline .layer0 {
+    background-color: #FF6400;
+}
+
+.original .gasoline .layer0 {
+    background-color: #FAA500;
+}
+
+.original .high_octane_gasoline .layer0 {
+    background-color: #FFA500;
+}
+
+.original .coal_gas .layer0 {
+    background-color: #333333;
+}
+
+.original .coal_tar .layer0 {
+    background-color: #1A1A1A;
+}
+
+.original .gunpowder .layer0 {
+    background-color: #808080;
+}
+
+.original .oilsands .layer0 {
+    background-color: #0A0A0A;
+}
+
+.original .rare_earth .layer0 {
+    background-color: #808064;
+}
+
+.original .stone .layer0 {
+    background-color: #CDCDCD;
+}
+
+.original .lava .layer0 {
+    background-color: #FF4000;
+}
+
+.original .glowstone .layer0 {
+    background-color: #FFFF00;
+}
+
+.original .nether_star .layer0 {
+}
+
+.original .endstone .layer0 {
+    background-color: #D9DE9E;
+}
+
+.original .netherrack .layer0 {
+    background-color: #C80000;
+}
+
+.original .cetane_boosted_diesel .layer0 {
+    background-color: #C8FF00;
+}
+
+.original .collagen .layer0 {
+    background-color: #80471C;
+}
+
+.original .gelatin .layer0 {
+    background-color: #588BAE;
+}
+
+.original .agar .layer0 {
+    background-color: #4F7942;
+}
+
+.original .milk .layer0 {
+    background-color: #FEFEFE;
+}
+
+.original .cocoa .layer0 {
+    background-color: #643200;
+}
+
+.original .wheat .layer0 {
+    background-color: #FFFFC4;
+}
+
+.original .meat .layer0 {
+    background-color: #C14C4C;
+}
+
+.original .wood .layer0 {
+    background-color: #643200;
+}
+
+.original .paper .layer0 {
+    background-color: #FAFAFA;
+}
+
+.original .fish_oil .layer0 {
+    background-color: #DCC15D;
+}
+
+.original .ruby_slurry .layer0 {
+    background-color: #ff6464;
+}
+
+.original .sapphire_slurry .layer0 {
+    background-color: #6464c8;
+}
+
+.original .green_sapphire_slurry .layer0 {
+    background-color: #64c882;
+}
+
+.original .black_dye .layer0 {
+    background-color: #202020;
+}
+
+.original .red_dye .layer0 {
+    background-color: #FF0000;
+}
+
+.original .green_dye .layer0 {
+    background-color: #00FF00;
+}
+
+.original .brown_dye .layer0 {
+    background-color: #604000;
+}
+
+.original .blue_dye .layer0 {
+    background-color: #0020FF;
+}
+
+.original .purple_dye .layer0 {
+    background-color: #800080;
+}
+
+.original .cyan_dye .layer0 {
+    background-color: #00FFFF;
+}
+
+.original .light_gray_dye .layer0 {
+    background-color: #C0C0C0;
+}
+
+.original .gray_dye .layer0 {
+    background-color: #808080;
+}
+
+.original .pink_dye .layer0 {
+    background-color: #FFC0C0;
+}
+
+.original .lime_dye .layer0 {
+    background-color: #80FF80;
+}
+
+.original .yellow_dye .layer0 {
+    background-color: #FFFF00;
+}
+
+.original .light_blue_dye .layer0 {
+    background-color: #6080FF;
+}
+
+.original .magenta_dye .layer0 {
+    background-color: #FF00FF;
+}
+
+.original .orange_dye .layer0 {
+    background-color: #FF8000;
+}
+
+.original .white_dye .layer0 {
+    background-color: #FFFFFF;
+}
+
+.original .impure_enriched_naquadah_solution .layer0 {
+    background-color: #388438;
+}
+
+.original .enriched_naquadah_solution .layer0 {
+    background-color: #3AAD3A;
+}
+
+.original .acidic_enriched_naquadah_solution .layer0 {
+    background-color: #3DD63D;
+}
+
+.original .enriched_naquadah_waste .layer0 {
+    background-color: #355B35;
+}
+
+.original .impure_naquadria_solution .layer0 {
+    background-color: #518451;
+}
+
+.original .naquadria_solution .layer0 {
+    background-color: #61AD61;
+}
+
+.original .acidic_naquadria_solution .layer0 {
+    background-color: #70D670;
+}
+
+.original .naquadria_waste .layer0 {
+    background-color: #425B42;
+}
+
+.original .lapotron .layer0 {
+    background-color: #2C39B1;
+}
+
+.original .treated_wood .layer0 {
+    background-color: #502800;
+}
+
+.original .uu_matter .layer0 {
+}
