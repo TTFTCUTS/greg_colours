@@ -7,6 +7,9 @@ import "iconset.dart";
 import "material.dart";
 
 Future<void> main() async {
+  final Element topBarElement = querySelector("#topbar")!;
+  final Element mainElement = querySelector("#main")!;
+
   print("begin");
   final List<Material> sortedMaterials = new List<Material>.from(Material.values)..sort((Material a, Material b) => a.name.compareTo(b.name));
 
@@ -24,7 +27,7 @@ Future<void> main() async {
     }
   }, mapping: (Material mat) => mat.name);
 
-  document.body!.append(searchBox);
+  topBarElement.append(searchBox);
 
   await Future.wait(sortedMaterials.map((Material mat) async {
     final Element materialElement = await materialPreview(mat);
@@ -33,7 +36,7 @@ Future<void> main() async {
   }));
 
   for (final Element e in materialElements.values) {
-    document.body!.append(e);
+    mainElement.append(e);
   }
 
   print("done");
