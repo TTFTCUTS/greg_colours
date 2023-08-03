@@ -43,7 +43,7 @@ Future<void> main() async {
         materialElements[matName]!.classes.remove("hidden");
       }
     }
-  });
+  }, mapping: (String s) => s);
 
   topBarElement.append(searchBox);
 
