@@ -1,12 +1,21 @@
 .revised .wood_gas .layer0 {
     background-color: #DECD87;
 }
+.revised .wood_gas .layer1 {
+    background-color: #deb287;
+}
 
 .revised .wood_vinegar .layer0 {
     background-color: #D45500;
 }
+.revised .wood_vinegar .layer1 {
+    background-color: #905800;
+}
 
 .revised .wood_tar .layer0 {
+    background-color: #3a271a;
+}
+.revised .wood_tar .layer1 {
     background-color: #28170B;
 }
 
@@ -339,6 +348,9 @@
 }
 
 .revised .wood .layer0 {
+    background-color: #c29f6d;
+}
+.revised .wood .layer1 {
     background-color: #643200;
 }
 
@@ -463,7 +475,10 @@
 }
 
 .revised .treated_wood .layer0 {
-    background-color: #502800;
+    background-color: #644218;
+}
+.revised .treated_wood .layer1 {
+    background-color: #4e0b00;
 }
 
 .revised .uu_matter .layer0 {
