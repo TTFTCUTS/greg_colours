@@ -6,7 +6,8 @@ import "package:LoaderLib/Loader.dart";
 import "icongenerator.dart";
 import "iconset.dart";
 import "itemlists.dart";
-import "material.dart";
+import "original_materials.dart";
+import "revised_materials.dart";
 import "utils.dart";
 
 Future<void> main() async {
@@ -37,8 +38,8 @@ Future<void> main() async {
 
   // material sets
   final Map<String, List<Material>> materialSets = <String, List<Material>>{
+    "revised": RevisedMaterials.values,
     "original": OriginalMaterials.values,
-    "revised": OriginalMaterials.values,
   };
 
   // process material names
@@ -51,23 +52,9 @@ Future<void> main() async {
   }
 
   final List<String> sortedMaterialNames = new List<String>.from(allMaterialNames)..sort();
+  final Map<String,Map<String,Material>> materialsByName = getMaterialsByName(materialSets);
 
   final Map<String,Element> materialElements = <String,Element>{};
-
-  // search box
-  final Element searchBox = Search.createListSearchBox(() => sortedMaterialNames, (Set<String>? searchResults) {
-    if (searchResults == null) { return; }
-    for (final String matName in materialElements.keys) {
-      if (!searchResults.contains(matName)) {
-        materialElements[matName]!.classes.add("hidden");
-      }
-      else {
-        materialElements[matName]!.classes.remove("hidden");
-      }
-    }
-  }, mapping: (String s) => s);
-
-  topBarElement.append(searchBox);
 
   // set selector
   final SelectElement setSelector = new SelectElement();
@@ -90,11 +77,36 @@ Future<void> main() async {
     displayMaterialSet(setSelector.value);
   });
 
+  // search box
+  String getSearchTermForMaterialName(String name) {
+    final String? currentSet = setSelector.value;
+
+    String setTag = "";
+    if (currentSet != null && materialsByName.containsKey(name) && materialsByName[name]!.containsKey(currentSet)) {
+      setTag = "#${materialsByName[name]![currentSet]!.iconSet.name}";
+    }
+
+    return "$name $setTag";
+  }
+
+  void updateSearchResults(Set<String>? searchResults) {
+    if (searchResults == null) { return; }
+    for (final String matName in materialElements.keys) {
+      if (!searchResults.any((String s) => s.split(" ").first == matName)) {
+        materialElements[matName]!.classes.add("hidden");
+      }
+      else {
+        materialElements[matName]!.classes.remove("hidden");
+      }
+    }
+  }
+
+  final Element searchBox = Search.createListSearchBox(() => sortedMaterialNames.map(getSearchTermForMaterialName), updateSearchResults, mapping: (String s) => s);
+
+  topBarElement.append(searchBox);
   topBarElement.append(setSelector);
 
   // process materials
-  final Map<String,Map<String,Material>> materialsByName = getMaterialsByName(materialSets);
-
   await Future.wait(materialsByName.keys.map((String matName) async {
 
     final Element materialElement = await materialPreview(matName, materialsByName[matName]!);
