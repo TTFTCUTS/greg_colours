@@ -8,7 +8,81 @@ import "package:archive/archive.dart" as raw;
 
 
 abstract class IconGenerator {
+  static final IconGenerator linear = new FunctionProcessor((num n) => 1-n, (num n) => n);
+  static final IconGenerator raiseMidtones = new FunctionProcessor((num n) => 1-n, (num n) => Math.pow(n, 0.7));
+
   CanvasElement processIcon(ImageElement image);
+}
+
+class FunctionProcessor extends IconGenerator {
+  final num Function(num) alphaFunction;
+  final num Function(num) brightnessFunction;
+
+  FunctionProcessor(num Function(num) this.alphaFunction, num Function(num) this.brightnessFunction);
+
+  @override
+  CanvasElement processIcon(ImageElement image) {
+    final int width = image.width!;
+    final int height = image.height!;
+    final CanvasElement canvas = new CanvasElement(
+        width: width, height: height);
+    final CanvasRenderingContext2D ctx = canvas.context2D;
+
+    ctx.drawImage(image, 0, 0);
+    final ImageData imgData = ctx.getImageData(0, 0, width, height);
+    final Uint8ClampedList data = imgData.data;
+
+    // start out inverted
+    int max = 0;
+    int min = 255;
+
+    // pass to get min and max
+    for (int i = 0; i < width * height; i++) {
+      final int index = i * 4;
+      // if alpha is >0
+      if (data[index + 3] > 0) {
+        // check if it's darker than current min
+        if (data[index] < min) {
+          min = data[index];
+        }
+        // check if it's brighter than current max
+        if (data[index] > max) {
+          max = data[index];
+        }
+      }
+    }
+
+    // process
+    for (int i = 0; i < width * height; i++) {
+      final int index = i * 4;
+
+      final int bright = data[index]; //red, assuming greyscale
+      final int alpha = data[index + 3];
+
+      num fraction = (bright - min) / (max - min);
+
+      //fraction = ((1-fraction) * 2 - 1).clamp(0, 1);
+
+      fraction = alphaFunction(fraction);
+
+      num brightness = data[index] / 255;
+
+      brightness = brightnessFunction(brightness);
+
+      final int val = (brightness * 255).floor();
+
+      data[index] = val;
+      data[index+1] = val;
+      data[index+2] = val;
+
+      // set alpha based on brightness
+      data[index + 3] = (alpha * fraction).floor();
+    }
+
+    ctx.putImageData(imgData, 0, 0);
+
+    return canvas;
+  }
 }
 
 class TestProcessor extends IconGenerator {
@@ -70,6 +144,8 @@ class TestProcessor extends IconGenerator {
     return canvas;
   }
 }
+
+// #############################################################################
 
 class GeneratedIconSet extends DataPack {
   final IconGenerator generator;

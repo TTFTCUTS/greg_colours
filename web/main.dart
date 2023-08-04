@@ -13,8 +13,8 @@ Future<void> main() async {
   print("Processing Icons");
 
   final Map<ItemSet,IconGenerator> iconsToGenerate = <ItemSet,IconGenerator>{
-    ItemSet.dull: new TestProcessor(),
-    ItemSet.shiny: new TestProcessor(),
+    ItemSet.dull: IconGenerator.linear,
+    ItemSet.shiny: IconGenerator.raiseMidtones,
   };
 
   for (final ItemSet itemSet in iconsToGenerate.keys) {
