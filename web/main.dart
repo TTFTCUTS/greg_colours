@@ -107,7 +107,7 @@ Future<void> main() async {
   topBarElement.append(setSelector);
 
   // process materials
-  await Future.wait(materialsByName.keys.map((String matName) async {
+  await Future.wait(sortedMaterialNames.map((String matName) async {
 
     final Element materialElement = await materialPreview(matName, materialsByName[matName]!);
 
