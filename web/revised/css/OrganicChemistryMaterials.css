@@ -1,5 +1,8 @@
 .revised .silicone_rubber .layer0 {
-    background-color: #DCDCDC;
+    background-color: #F0F0F0;
+}
+.revised .silicone_rubber .layer0 {
+    background-color: #E8E8E0;
 }
 
 .revised .nitrobenzene .layer0 {
@@ -7,11 +10,24 @@
 }
 
 .revised .raw_rubber .layer0 {
+    background-color: #54503D;
+}
+.revised .raw_rubber .layer1 {
     background-color: #54403D;
 }
 
+.revised .raw_styrene_butadiene_rubber .layer0 {
+    background-color: #54403D;
+}
+.revised .raw_styrene_butadiene_rubber .layer1 {
+    background-color: #241520;
+}
+
 .revised .styrene_butadiene_rubber .layer0 {
-    background-color: #211A18;
+    background-color: #34312b;
+}
+.revised .styrene_butadiene_rubber .layer1 {
+    background-color: #110B09;
 }
 
 .revised .polyvinyl_acetate .layer0 {
@@ -248,7 +264,10 @@
 }
 
 .revised .rubber .layer0 {
-    background-color: #000000;
+    background-color: #353529;
+}
+.revised .rubber .layer1 {
+    background-color: #080808;
 }
 
 .revised .cyclohexane .layer0 {

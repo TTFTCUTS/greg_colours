@@ -428,7 +428,10 @@
 }
 
 .revised .thorium .layer0 {
-    background-color: #001E00;
+    background-color: #323528;
+}
+.revised .thorium .layer1 {
+    background-color: #051E05;
 }
 
 .revised .thallium .layer0 {
@@ -455,11 +458,17 @@
     background-color: #323232;
 }
 
-.revised .uranium .layer0 {
+.revised .uranium238 .layer0 {
+    background-color: #505250;
+}
+.revised .uranium238 .layer1 {
     background-color: #32F032;
 }
 
-.revised .uranium_235 .layer0 {
+.revised .uranium235 .layer0 {
+    background-color: #505250;
+}
+.revised .uranium235 .layer1 {
     background-color: #46FA46;
 }
 
