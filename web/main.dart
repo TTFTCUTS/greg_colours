@@ -14,8 +14,25 @@ Future<void> main() async {
   print("Processing Icons");
 
   final Map<ItemSet,IconGenerator> iconsToGenerate = <ItemSet,IconGenerator>{
+    ItemSet.bright: IconGenerator.linear,
+    ItemSet.certus: IconGenerator.linear,
+    ItemSet.diamond: IconGenerator.linear,
     ItemSet.dull: IconGenerator.linear,
+    ItemSet.emerald: IconGenerator.linear,
+    ItemSet.fine: IconGenerator.linear,
+    ItemSet.flint: IconGenerator.linear,
+    ItemSet.gem_horizontal: IconGenerator.linear,
+    ItemSet.gem_vertical: IconGenerator.linear,
+    ItemSet.lapis: IconGenerator.linear,
+    ItemSet.lignite: IconGenerator.linear,
+    ItemSet.metallic: IconGenerator.raiseMidtones,
+    ItemSet.netherstar: IconGenerator.linear,
+    ItemSet.quartz: IconGenerator.linear,
+    ItemSet.rough: IconGenerator.linear,
+    ItemSet.ruby: IconGenerator.linear,
+    ItemSet.sand: IconGenerator.linear,
     ItemSet.shiny: IconGenerator.raiseMidtones,
+    ItemSet.wood: IconGenerator.linear,
   };
 
   for (final ItemSet itemSet in iconsToGenerate.keys) {
