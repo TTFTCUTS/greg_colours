@@ -5,20 +5,32 @@ import "package:LoaderLib/Loader.dart";
 
 import "icongenerator.dart";
 import "iconset.dart";
+import "itemlists.dart";
 import "material.dart";
 import "utils.dart";
 
 Future<void> main() async {
-  final GeneratedIconSet iconSet = new GeneratedIconSet(new TestProcessor());
+  print("Processing Icons");
 
-  final String inputString = "revised/material_sets/dull/ingot.png";
-  final String outputString = "revised/material_sets/dull/ingot_secondary.png";
+  final Map<ItemSet,IconGenerator> iconsToGenerate = <ItemSet,IconGenerator>{
+    ItemSet.dull: new TestProcessor(),
+    ItemSet.shiny: new TestProcessor(),
+  };
 
-  await iconSet.processIcon(inputString, outputString);
+  for (final ItemSet itemSet in iconsToGenerate.keys) {
+    if (itemSet.items.isEmpty) { continue; }
+    final GeneratedIconSet iconSet = new GeneratedIconSet(iconsToGenerate[itemSet]!);
 
-  Loader.mountDataPack(iconSet.archive);
+    for (final String icon in itemSet.items) {
+      final String path = "revised/material_sets/${itemSet.name}/$icon";
+      await iconSet.processIcon("$path.png", "${path}_secondary.png");
+    }
 
-  print("begin");
+    print("Generated secondary textures for ${itemSet.name}");
+    Loader.mountDataPack(iconSet.archive);
+  }
+
+  print("Start Page Generation");
 
   final Element topBarElement = querySelector("#topbar")!;
   final Element mainElement = querySelector("#main")!;
@@ -95,13 +107,8 @@ Future<void> main() async {
   }
 
   displayMaterialSet(setSelector.value);
-  print("done");
+  print("Done");
 }
-
-const List<String> itemTypes = <String>["bolt", "crushed", "crushed_purified", "crushed_refined", "dust", "dust_impure", "dust_pure", "dust_small", "dust_tiny", "foil", "gear",
-  "gear_small", "gem", "gem_chipped", "gem_exquisite", "gem_flawed", "gem_flawless", "ingot", "ingot_double", "ingot_hot", "lens", "nugget", "plate", "plate_dense", "plate_double",
-  "raw_ore", "ring", "rod", "rod_long", "rotor", "round", "screw", "spring", "spring_small", "tool_head_buzz_saw", "tool_head_chainsaw", "tool_head_drill", "tool_head_screwdriver",
-  "tool_head_wrench", "turbine_blade", "wire_fine"];
 
 Future<Element> materialPreview(String matName, Map<String,Material> materials) async {
   print("Processing material: $matName");
@@ -113,7 +120,7 @@ Future<Element> materialPreview(String matName, Map<String,Material> materials) 
     final Element setContainer = new DivElement()..className="materialset $materialSet";
     final Material material = materials[materialSet]!;
 
-    await Future.wait(itemTypes.map((String item) => itemPreview(item, materialSet, material))).then((List<Element> previews) {
+    await Future.wait(ItemSet.allItems.map((String item) => itemPreview(item, materialSet, material))).then((List<Element> previews) {
       for (final Element e in previews) {
         setContainer.append(e);
       }

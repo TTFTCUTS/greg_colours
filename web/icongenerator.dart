@@ -1,5 +1,5 @@
-import "dart:convert";
 import "dart:html";
+import "dart:math" as Math; 
 import "dart:typed_data";
 
 import "package:LoaderLib/Archive.dart";
@@ -23,16 +23,20 @@ class TestProcessor extends IconGenerator {
     final ImageData imgData = ctx.getImageData(0, 0, width, height);
     final Uint8ClampedList data = imgData.data;
 
+    // start out inverted
     int max = 0;
     int min = 255;
 
     // pass to get min and max
     for (int i = 0; i<width*height; i++) {
       final int index = i*4;
+      // if alpha is >0
       if (data[index+3] > 0) {
+        // check if it's darker than current min
         if (data[index] < min) {
           min = data[index];
         }
+        // check if it's brighter than current max
         if (data[index] > max) {
           max = data[index];
         }
@@ -46,9 +50,19 @@ class TestProcessor extends IconGenerator {
       final int bright = data[index]; //red, assuming greyscale
       final int alpha = data[index+3];
 
-      final double fraction = (bright - min) / (max - min);
+      double fraction = (bright - min) / (max - min);
+      
+      //fraction = ((1-fraction) * 2 - 1).clamp(0, 1);
 
-      data[index+3] = (alpha * (1-fraction)).floor();
+      fraction = (1-fraction);
+
+      // brigten RGB
+      /*data[index] = 127 + data[index] ~/ 2;
+      data[index+1] = 127 + data[index+1] ~/ 2;
+      data[index+2] = 127 + data[index+2] ~/ 2;*/
+
+      // set alpha based on brightness
+      data[index+3] = (alpha * fraction).floor();
     }
 
     ctx.putImageData(imgData, 0, 0);

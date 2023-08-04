@@ -161,7 +161,10 @@
 }
 
 .revised .gold .layer0 {
-    background-color: #FFE650;
+    background-color: #FFEA39; /*#FFEB10;*/
+}
+.revised .gold .layer1 {
+    background-color: #F07217 /*#E06B15;*/
 }
 
 .revised .hafnium .layer0 {
