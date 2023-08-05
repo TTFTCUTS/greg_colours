@@ -122,6 +122,7 @@ Future<void> main() async {
 
   topBarElement.append(searchBox);
   topBarElement.append(setSelector);
+  topBarElement.append(new ButtonElement()..text="Update CSS"..onClick.listen((_) { reloadCSS(); }));
 
   // process materials
   await Future.wait(sortedMaterialNames.map((String matName) async {

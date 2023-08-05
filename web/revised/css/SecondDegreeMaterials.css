@@ -1,6 +1,9 @@
 .revised .glass .layer0 {
     background-color: #FAFAFA;
 }
+.revised .glass .layer1 {
+    background-color: #FAFAFA;
+}
 
 .revised .perlite .layer0 {
     background-color: #1E141E;
@@ -139,7 +142,10 @@
 }
 
 .revised .borosilicate_glass .layer0 {
-    background-color: #E6F3E6;
+    background-color: #FAFAFA;
+}
+.revised .borosilicate_glass .layer1 {
+    background-color: #faf5c0;
 }
 
 .revised .andesite .layer0 {

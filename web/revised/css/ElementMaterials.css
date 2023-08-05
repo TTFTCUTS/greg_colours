@@ -14,7 +14,10 @@
 }
 
 .revised .antimony .layer0 {
-    background-color: #DCDCF0;
+    background-color: #eaeaff;
+}
+.revised .antimony .layer1 {
+    background-color: #a2a2bc;
 }
 
 .revised .argon .layer0 {
@@ -40,11 +43,15 @@
 .revised .beryllium .layer0 {
     background-color: #64B464;
 }
+
 .revised .bismuth .layer0 {
     background-color: #64A0A0;
 }
 
 .revised .bohrium .layer0 {
+    background-color: #4c3e50;
+}
+.revised .bohrium .layer1 {
     background-color: #DC57FF;
 }
 
@@ -53,7 +60,10 @@
 }
 
 .revised .bromine .layer0 {
-    background-color: #500A0A;
+    background-color: #912200;
+}
+.revised .bromine .layer1 {
+    background-color: #080101;
 }
 
 .revised .caesium .layer0 {
@@ -73,7 +83,10 @@
 }
 
 .revised .cadmium .layer0 {
-    background-color: #32323C;
+    background-color: #636377;
+}
+.revised .cadmium .layer1 {
+    background-color: #412738;
 }
 
 .revised .cerium .layer0 {
@@ -85,7 +98,10 @@
 }
 
 .revised .chromium .layer0 {
-    background-color: #EAC4D8;
+    background-color: #f3e0ea;
+}
+.revised .chromium .layer1 {
+    background-color: #441f2e;
 }
 
 .revised .cobalt .layer0 {
