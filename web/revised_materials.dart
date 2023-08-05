@@ -16,7 +16,7 @@ enum RevisedMaterials with Material {
   berkelium.metallic(),
   beryllium.metallic(),
   bismuth.metallic(),
-  bohrium.shiny(),
+  bohrium.radioactive(),
   boron(),
   bromine.shiny(),
   caesium.metallic(),
@@ -33,7 +33,7 @@ enum RevisedMaterials with Material {
   curium.metallic(),
   darmstadtium(),
   deuterium(),
-  dubnium.shiny(),
+  dubnium.radioactive(),
   dysprosium.metallic(),
   einsteinium.metallic(),
   erbium.metallic(),
@@ -641,4 +641,5 @@ enum RevisedMaterials with Material {
   const RevisedMaterials.glassSet():this(IconSet.glass);
   const RevisedMaterials.opalSet():this(IconSet.opal);
   const RevisedMaterials.netherstar():this(IconSet.netherstar);
+  const RevisedMaterials.radioactive():this(IconSet.radioactive);
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "gtceu:item/material_sets/shiny/gem_flawless",
+  "textures": {
+    "layer1": "gtceu:item/material_sets/radioactive/gem_flawless_secondary"
+  }
+}

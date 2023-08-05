@@ -33,6 +33,7 @@ Future<void> main() async {
     ItemSet.sand: IconGenerator.linear,
     ItemSet.shiny: IconGenerator.raiseMidtones,
     ItemSet.wood: IconGenerator.linear,
+    ItemSet.radioactive: IconGenerator.radioactive,
   };
 
   for (final ItemSet itemSet in iconsToGenerate.keys) {
@@ -40,8 +41,24 @@ Future<void> main() async {
     final GeneratedIconSet iconSet = new GeneratedIconSet(iconsToGenerate[itemSet]!);
 
     for (final String icon in itemSet.items) {
-      final String path = "revised/material_sets/${itemSet.name}/$icon";
-      await iconSet.processIcon("$path.png", "${path}_secondary.png");
+      IconSet candidateSet = IconSet.values.where((IconSet i) => i.name == itemSet.name).first;
+      while(true) {
+        try {
+          await Loader.getResource("revised/material_sets/${candidateSet.name}/$icon.png", format: Formats.png);
+          break;
+        }
+        on Exception {
+          if (candidateSet.parent != null) {
+            candidateSet = candidateSet.parent!;
+          } else {
+            throw Exception("No valid icon found for ItemSet ${itemSet.name} -> $icon");
+          }
+        }
+      }
+      final String path = "revised/material_sets/${candidateSet.name}/$icon.png";
+      final String outPath = "revised/material_sets/${itemSet.name}/${icon}_secondary.png";
+      print("Processing icon for set ${itemSet.name}: $path -> $outPath");
+      await iconSet.processIcon(path, outPath);
     }
 
     print("Generated secondary textures for ${itemSet.name}");

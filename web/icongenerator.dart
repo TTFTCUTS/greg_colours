@@ -6,12 +6,55 @@ import "package:LoaderLib/Archive.dart";
 import "package:LoaderLib/Loader.dart";
 import "package:archive/archive.dart" as raw;
 
+import "utils.dart";
+
 
 abstract class IconGenerator {
+  static final IconGenerator test = new TestProcessor();
+
   static final IconGenerator linear = new FunctionProcessor((num n) => 1-n, (num n) => n);
   static final IconGenerator raiseMidtones = new FunctionProcessor((num n) => 1-n, (num n) => Math.pow(n, 0.7));
 
-  CanvasElement processIcon(ImageElement image);
+  static final IconGenerator radioactive = new SequenceProcessor()
+    ..processors.add(new EdgeTrimmer(1))
+    ..processors.add(new FunctionProcessor((num n) => cubicPulse(0.375, 0.3, Math.pow(1-n,1.5).clamp(0, 1) * 0.65), (num n) => Math.pow(n, 1.5)))
+  ;
+
+  CanvasElement processIcon(CanvasImageSource image);
+}
+
+class TestProcessor extends IconGenerator {
+  @override
+  CanvasElement processIcon(CanvasImageSource image) {
+    final int width = image.width!;
+    final int height = image.height!;
+    final CanvasElement canvas = new CanvasElement(width: width, height: height);
+    final CanvasRenderingContext2D ctx = canvas.context2D;
+
+    ctx.fillStyle = "#CC80CC";
+    ctx.fillRect(0, 0, width, height);
+
+    return canvas;
+  }
+}
+
+class SequenceProcessor extends IconGenerator {
+  final List<IconGenerator> processors = <IconGenerator>[];
+
+  @override
+  CanvasElement processIcon(CanvasImageSource image) {
+    CanvasImageSource input = image;
+
+    if (processors.isEmpty) {
+      throw Exception("Empty SequenceProcessor");
+    }
+
+    for (final IconGenerator gen in processors) {
+      input = gen.processIcon(input);
+    }
+
+    return input as CanvasElement;
+  }
 }
 
 class FunctionProcessor extends IconGenerator {
@@ -21,11 +64,10 @@ class FunctionProcessor extends IconGenerator {
   FunctionProcessor(num Function(num) this.alphaFunction, num Function(num) this.brightnessFunction);
 
   @override
-  CanvasElement processIcon(ImageElement image) {
+  CanvasElement processIcon(CanvasImageSource image) {
     final int width = image.width!;
     final int height = image.height!;
-    final CanvasElement canvas = new CanvasElement(
-        width: width, height: height);
+    final CanvasElement canvas = new CanvasElement(width: width, height: height);
     final CanvasRenderingContext2D ctx = canvas.context2D;
 
     ctx.drawImage(image, 0, 0);
@@ -85,9 +127,13 @@ class FunctionProcessor extends IconGenerator {
   }
 }
 
-class TestProcessor extends IconGenerator {
+class EdgeTrimmer extends IconGenerator {
+  final int minAlpha;
+
+  EdgeTrimmer(int this.minAlpha);
+
   @override
-  CanvasElement processIcon(ImageElement image) {
+  CanvasElement processIcon(CanvasImageSource image) {
     final int width = image.width!;
     final int height = image.height!;
     final CanvasElement canvas = new CanvasElement(width: width, height: height);
@@ -97,49 +143,24 @@ class TestProcessor extends IconGenerator {
     final ImageData imgData = ctx.getImageData(0, 0, width, height);
     final Uint8ClampedList data = imgData.data;
 
-    // start out inverted
-    int max = 0;
-    int min = 255;
+    final ImageData replacementImgData = ctx.getImageData(0, 0, width, height);
+    final Uint8ClampedList replacementData = replacementImgData.data;
 
-    // pass to get min and max
-    for (int i = 0; i<width*height; i++) {
-      final int index = i*4;
-      // if alpha is >0
-      if (data[index+3] > 0) {
-        // check if it's darker than current min
-        if (data[index] < min) {
-          min = data[index];
-        }
-        // check if it's brighter than current max
-        if (data[index] > max) {
-          max = data[index];
+    for (int y=0; y<height; y++) {
+      for (int x=0; x<width; x++) {
+        final int id = (width * y + x) * 4;
+        final bool up = (y == 0) || data[id - width*4 +3] == 0;
+        final bool down = (y == height-1) || data[id + width*4 +3] == 0;
+        final bool left = (x == 0) || data[id - 4 +3] == 0;
+        final bool right = (x == width-1) || data[id + 4 +3] == 0;
+
+        if (up || down || left || right) {
+          replacementData[id+3] = Math.min(minAlpha, replacementData[id+3]);
         }
       }
     }
 
-    // process
-    for (int i = 0; i<width*height; i++) {
-      final int index = i*4;
-
-      final int bright = data[index]; //red, assuming greyscale
-      final int alpha = data[index+3];
-
-      double fraction = (bright - min) / (max - min);
-      
-      //fraction = ((1-fraction) * 2 - 1).clamp(0, 1);
-
-      fraction = (1-fraction);
-
-      // brigten RGB
-      /*data[index] = 127 + data[index] ~/ 2;
-      data[index+1] = 127 + data[index+1] ~/ 2;
-      data[index+2] = 127 + data[index+2] ~/ 2;*/
-
-      // set alpha based on brightness
-      data[index+3] = (alpha * fraction).floor();
-    }
-
-    ctx.putImageData(imgData, 0, 0);
+    ctx.putImageData(replacementImgData, 0, 0);
 
     return canvas;
   }
