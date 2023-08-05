@@ -23,7 +23,7 @@ enum ItemSet with EnumName {
   rough(<String>["dust","dust_small","dust_tiny","gear","plate","plate_dense","plate_double"]),
   ruby(<String>["gem"]),
   sand(<String>["crushed","crushed_purified","crushed_refined","dust","dust_impure","dust_pure","dust_small","dust_tiny"]),
-  shiny(<String>["bolt","dust","dust_small","dust_tiny","gear","gear_small","ingot","ingot_double","nugget","plate","plate_dense","plate_double","raw_ore",
+  shiny(<String>["bolt","dust","dust_small","dust_tiny","foil","gear","gear_small","ingot","ingot_double","nugget","plate","plate_dense","plate_double","raw_ore",
     "ring","rod","rod_long","round","screw"]),
   wood(<String>["gear","plate","plate_double","rod","rod_long","screw"]);
 
