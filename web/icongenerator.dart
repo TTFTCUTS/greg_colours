@@ -17,7 +17,7 @@ abstract class IconGenerator {
 
   static final IconGenerator radioactive = new SequenceProcessor()
     ..processors.add(new EdgeTrimmer(1))
-    ..processors.add(new FunctionProcessor((num n) => cubicPulse(0.375, 0.3, Math.pow(1-n,1.5).clamp(0, 1) * 0.65), (num n) => Math.pow(n, 1.5)))
+    ..processors.add(new FunctionProcessor((num n) => cubicPulse(0.45, 0.4, (1-n) * 0.4), (num n) => n))
   ;
 
   CanvasElement processIcon(CanvasImageSource image);
