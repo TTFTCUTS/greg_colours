@@ -219,7 +219,10 @@
 }
 
 .revised .rarest_metal_mixture .layer0 {
-    background-color: #832E11;
+    background-color: #ca8832;
+}
+.revised .rarest_metal_mixture .layer1 {
+    background-color: #b21900;
 }
 
 .revised .ammonium_chloride .layer0 {
@@ -231,6 +234,9 @@
 }
 
 .revised .rhodium_plated_palladium .layer0 {
+    background-color: #d1d1d1;
+}
+.revised .rhodium_plated_palladium .layer1 {
     background-color: #000000;
 }
 

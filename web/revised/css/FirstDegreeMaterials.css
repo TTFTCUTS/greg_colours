@@ -134,7 +134,10 @@
 }
 
 .revised .ice .layer0 {
-    background-color: #C8C8FF;
+    background-color: #eef6ff;
+}
+.revised .ice .layer1 {
+    background-color: #6389c9;
 }
 
 .revised .ilmenite .layer0 {
@@ -198,7 +201,10 @@
 }
 
 .revised .sterling_silver .layer0 {
-    background-color: #FADCE1;
+    background-color: #faf4dc;
+}
+.revised .sterling_silver .layer1 {
+    background-color: #484434;
 }
 
 .revised .rose_gold .layer0 {
@@ -293,7 +299,10 @@
 }
 
 .revised .stainless_steel .layer0 {
-    background-color: #C8C8DC;
+    background-color: #ededfd;
+}
+.revised .stainless_steel .layer1 {
+    background-color: #19191d;
 }
 
 .revised .steel .layer0 {
@@ -321,7 +330,10 @@
 }
 
 .revised .ultimet .layer0 {
-    background-color: #B4B4E6;
+    background-color: #9f9fb1;
+}
+.revised .ultimet .layer1 {
+    background-color: #385086;
 }
 
 .revised .uraninite .layer0 {
@@ -333,7 +345,10 @@
 }
 
 .revised .vanadium_gallium .layer0 {
-    background-color: #80808C;
+    background-color: #89aeec;
+}
+.revised .vanadium_gallium .layer1 {
+    background-color: #00379d;
 }
 
 .revised .wrought_iron .layer0 {
@@ -376,7 +391,10 @@
 }
 
 .revised .tungstic_acid .layer0 {
-    background-color: #BCC800;
+    background-color: #fffc03;
+}
+.revised .tungstic_acid .layer1 {
+    background-color: #886217;
 }
 
 .revised .osmiridium .layer0 {
@@ -666,15 +684,24 @@
 }
 
 .revised .mercury_barium_calcium_cuprate .layer0 {
-    background-color: #555555;
+    background-color: #777777;
+}
+.revised .mercury_barium_calcium_cuprate .layer1 {
+    background-color: #3f2e2e;
 }
 
 .revised .uranium_triplatinum .layer0 {
-    background-color: #008700;
+    background-color: #457045;
+}
+.revised .uranium_triplatinum .layer1 {
+    background-color: #66ff00;
 }
 
 .revised .samarium_iron_arsenic_oxide .layer0 {
-    background-color: #330033;
+    background-color: #850e85;
+}
+.revised .samarium_iron_arsenic_oxide .layer1 {
+    background-color: #332f33;
 }
 
 .revised .indium_tin_barium_titanium_cuprate .layer0 {
@@ -715,13 +742,19 @@
 .revised .titanium_trifluoride .layer0 {
     background-color: #8F00FF;
 }
+.revised .titanium_trifluoride .layer1 {
+    background-color: #341465;
+}
 
 .revised .calcium_phosphide .layer0 {
     background-color: #A52A2A;
 }
 
 .revised .indium_phosphide .layer0 {
-    background-color: #582E5C;
+    background-color: #734d77;
+}
+.revised .indium_phosphide .layer1 {
+    background-color: #2c272d;
 }
 
 .revised .barium_sulfide .layer0 {
@@ -730,6 +763,9 @@
 
 .revised .trinium_sulfide .layer0 {
     background-color: #E68066;
+}
+.revised .trinium_sulfide .layer1 {
+    background-color: #6f143a;
 }
 
 .revised .zinc_sulfide .layer0 {
@@ -752,6 +788,9 @@
 }
 
 .revised .naquadria_sulfate .layer0 {
+    background-color: #85ff5a;
+}
+.revised .naquadria_sulfate .layer1 {
     background-color: #006633;
 }
 

@@ -129,7 +129,7 @@ enum OriginalMaterials with Material {
   zirconium.metallic(),
   naquadah.metallic(),
   enriched_naquadah.metallic(),
-  naquadira.shiny(),
+  naquadria.shiny(),
   netronium(),
   tritanium.metallic(),
   duranium.bright(),
@@ -326,7 +326,7 @@ enum OriginalMaterials with Material {
   gallium_sulfide.shiny(),
   antomony_trifluoride.metallic(),
   enriched_naquadah_sulfate.metallic(),
-  naquadria_sulfide.shiny(),
+  naquadria_sulfate.shiny(),
   pyrochlore.metallic(),
   liquid_helium(),
 

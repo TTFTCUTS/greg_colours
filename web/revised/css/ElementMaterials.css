@@ -201,6 +201,9 @@
 .revised .hafnium .layer0 {
     background-color: #99999A;
 }
+.revised .hafnium .layer1 {
+    background-color: #2b4a3a;
+}
 
 .revised .hassium .layer0 {
     background-color: #DDDDDD;
@@ -223,11 +226,17 @@
 }
 
 .revised .indium .layer0 {
+    background-color: #d0c8d9;
+}
+.revised .indium .layer1 {
     background-color: #400080;
 }
 
 .revised .iodine .layer0 {
-    background-color: #2C344F;
+    background-color: #67686d;
+}
+.revised .iodine .layer1 {
+    background-color: #773000;
 }
 
 .revised .iridium .layer0 {
@@ -259,7 +268,10 @@
 }
 
 .revised .livermorium .layer0 {
-    background-color: #AAAAAA;
+    background-color: #939393;
+}
+.revised .livermorium .layer1 {
+    background-color: #ff8b8b;
 }
 
 .revised .lutetium .layer0 {
@@ -279,19 +291,31 @@
 }
 
 .revised .meitnerium .layer0 {
-    background-color: #2246BE;
+    background-color: #454854;
+}
+.revised .meitnerium .layer1 {
+    background-color: #6e90ff;
 }
 
 .revised .mercury .layer0 {
     background-color: #E6DCDC;
 }
+.revised .mercury .layer0 {
+    background-color: #E6DCDC;
+}
 
 .revised .molybdenum .layer0 {
-    background-color: #B4B4DC;
+    background-color: #c1c1ce;
+}
+.revised .molybdenum .layer1 {
+    background-color: #404068;
 }
 
 .revised .moscovium .layer0 {
-    background-color: #7854AD;
+    background-color: #2a1b40;
+}
+.revised .moscovium .layer1 {
+    background-color: #bd91ff;
 }
 
 .revised .neodymium .layer0 {
@@ -311,7 +335,10 @@
 }
 
 .revised .nihonium .layer0 {
-    background-color: #08269E;
+    background-color: #323957;
+}
+.revised .nihonium .layer1 {
+    background-color: #a68bff;
 }
 
 .revised .niobium .layer0 {
@@ -323,7 +350,10 @@
 }
 
 .revised .nobelium .layer0 {
-
+    background-color: #3e4758;
+}
+.revised .nobelium .layer1 {
+    background-color: #43deff;
 }
 
 .revised .osmium .layer0 {
@@ -335,7 +365,10 @@
 }
 
 .revised .palladium .layer0 {
-    background-color: #808080;
+    background-color: #A0A0A0;
+}
+.revised .palladium .layer1 {
+    background-color: #4b4a3a;
 }
 
 .revised .phosphorus .layer0 {
@@ -347,7 +380,10 @@
 }
 
 .revised .platinum .layer0 {
-    background-color: #FFFFC8;
+    background-color: #fff9da;
+}
+.revised .platinum .layer1 {
+    background-color: #4e4e45;
 }
 
 .revised .plutonium239 .layer0 {
@@ -385,11 +421,17 @@
 }
 
 .revised .radium .layer0 {
-    background-color: #FFFFCD;
+    background-color: #838361;
+}
+.revised .radium .layer1 {
+    background-color: #90ff2d;
 }
 
 .revised .rhenium .layer0 {
-    background-color: #B6BAC3;
+    background-color: #cbcfd7;
+}
+.revised .rhenium .layer1 {
+    background-color: #37393d;
 }
 
 .revised .rhodium .layer0 {
@@ -397,18 +439,30 @@
 }
 
 .revised .roentgenium .layer0 {
+    background-color: #3e4840;
+}
+.revised .roentgenium .layer1 {
     background-color: #E3FDEC;
 }
 
 .revised .rubidium .layer0 {
-    background-color: #F01E1E;
+    background-color: #bdb0b0;
+}
+.revised .rubidium .layer1 {
+    background-color: #451c1c;
 }
 
 .revised .ruthenium .layer0 {
-    background-color: #50ACCD;
+    background-color: #c7ced1;
+}
+.revised .ruthenium .layer1 {
+    background-color: #3c7285;
 }
 
 .revised .rutherfordium .layer0 {
+    background-color: #6b6157;
+}
+.revised .rutherfordium .layer1 {
     background-color: #FFF6A1;
 }
 
@@ -421,15 +475,24 @@
 }
 
 .revised .seaborgium .layer0 {
+    background-color: #807c76;
+}
+.revised .seaborgium .layer1 {
     background-color: #19C5FF;
 }
 
 .revised .selenium .layer0 {
-    background-color: #3C3C50;
+    background-color: #58587b;
+}
+.revised .selenium .layer1 {
+    background-color: #401b24;
 }
 
 .revised .silver .layer0 {
     background-color: #DCDCFF;
+}
+.revised .silver .layer1 {
+    background-color: #5a4705;
 }
 
 .revised .sodium .layer0 {
@@ -449,7 +512,10 @@
 }
 
 .revised .technetium .layer0 {
-    background-color: #545455;
+    background-color: #b1d0d8;
+}
+.revised .technetium .layer1 {
+    background-color: #d7fce2;
 }
 
 .revised .tellurium .layer0 {
@@ -457,7 +523,10 @@
 }
 
 .revised .tennessine .layer0 {
-    background-color: #977FD6;
+    background-color: #768189;
+}
+.revised .tennessine .layer1 {
+    background-color: #bca3ff;
 }
 
 .revised .terbium .layer0 {
@@ -472,7 +541,10 @@
 }
 
 .revised .thallium .layer0 {
-    background-color: #C1C1DE;
+    background-color: #c1c9de;
+}
+.revised .thallium .layer1 {
+    background-color: #1e576a;
 }
 
 .revised .thulium .layer0 {
@@ -536,6 +608,9 @@
 .revised .naquadah .layer0 {
     background-color: #323232;
 }
+.revised .naquadah .layer1 {
+    background-color: #1e251b;
+}
 
 .revised .enriched_naquadah .layer0 {
     background-color: #3C3C3C;
@@ -543,6 +618,9 @@
 
 .revised .naquadria .layer0 {
     background-color: #1E1E1E;
+}
+.revised .naquadria .layer1 {
+    background-color: #59b3ff;
 }
 
 .revised .neutronium .layer0 {
@@ -558,5 +636,8 @@
 }
 
 .revised .trinium .layer0 {
-    background-color: #9973BD;
+    background-color: #81808a;
+}
+.revised .trinium .layer1 {
+    background-color: #351d4b;
 }
