@@ -192,7 +192,27 @@ Future<Element> itemPreview(String item, String materialSet, Material mat) async
     final String url = "$materialSet/material_sets/${entry.value}.png";
     final ImageElement? icon = await Loader.getResource(url);
     if (icon != null) {
-      return new DivElement()..className = "img ${entry.key}"..style.backgroundImage = "url(${icon.src})"..style.maskImage = "url(${icon.src})";
+      //print("$materialSet ${mat.name} $item w: ${icon.width}, h: ${icon.height}");
+      final int frames = icon.height! ~/ icon.width!;
+
+      final DivElement iconElement = new DivElement()
+        ..className = "img ${entry.key}"
+        ..style.backgroundImage = "url(${icon.src})"
+        ..style.maskImage = "url(${icon.src})";
+
+      if (frames > 1) {
+        final String animationName = "frames_$frames";
+
+        iconElement
+          ..style.height = "${100 * frames}%"
+          ..style.backgroundPosition = "0% 0%"
+          ..style.maskPosition = "0% 0%"
+          ..style.animation = "1s steps($frames, end) infinite animateFrames"
+        ;
+        print("finished animation $animationName");
+      }
+
+      return iconElement;
     }
   })).then((List<Element?> elements) {
     for (final Element? element in elements) {

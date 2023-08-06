@@ -129,7 +129,10 @@
 }
 
 .revised .dubnium .layer0 {
-    background-color: #D3FDFF;
+    background-color: #c7ddde;
+}
+.revised .dubnium .layer1 {
+    background-color: #00f3ff;
 }
 
 .revised .dysprosium .layer0 {
@@ -153,7 +156,10 @@
 }
 
 .revised .flerovium .layer0 {
-
+    background-color: #393d43;
+}
+.revised .flerovium .layer1 {
+    background-color: #d2ff00;
 }
 
 .revised .fluorine .layer0 {
@@ -163,17 +169,26 @@
 .revised .francium .layer0 {
     background-color: #AAAAAA;
 }
+.revised .francium .layer1 {
+    background-color: #0000ff;
+}
 
 .revised .gadolinium .layer0 {
     background-color: #DDDDFF;
 }
 
 .revised .gallium .layer0 {
-    background-color: #DCDCFF;
+    background-color: #dadbf3;
+}
+.revised .gallium .layer1 {
+    background-color: #787955;
 }
 
 .revised .germanium .layer0 {
-    background-color: #434343;
+    background-color: #e1e1e1;
+}
+.revised .germanium .layer1 {
+    background-color: #6a6248;
 }
 
 .revised .gold .layer0 {
@@ -335,12 +350,18 @@
     background-color: #FFFFC8;
 }
 
-.revised .plutonium .layer0 {
-    background-color: #F03232;
+.revised .plutonium239 .layer0 {
+    background-color: #222730;
+}
+.revised .plutonium239 .layer1 {
+    background-color: #ba2727;
 }
 
-.revised .plutonium_241 .layer0 {
-    background-color: #FA4646;
+.revised .plutonium241 .layer0 {
+    background-color: #222730;
+}
+.revised .plutonium241 .layer1 {
+    background-color: #fa7272;
 }
 
 .revised .potassium .layer0 {
@@ -475,14 +496,14 @@
 }
 
 .revised .uranium238 .layer0 {
-    background-color: #505250;
+    background-color: #33342c;
 }
 .revised .uranium238 .layer1 {
-    background-color: #32F032;
+    background-color: #1d891d;
 }
 
 .revised .uranium235 .layer0 {
-    background-color: #505250;
+    background-color: #33342c;
 }
 .revised .uranium235 .layer1 {
     background-color: #46FA46;

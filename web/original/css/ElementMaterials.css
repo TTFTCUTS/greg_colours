@@ -313,11 +313,11 @@
     background-color: #FFFFC8;
 }
 
-.original .plutonium .layer0 {
+.original .plutonium239 .layer0 {
     background-color: #F03232;
 }
 
-.original .plutonium_241 .layer0 {
+.original .plutonium241 .layer0 {
     background-color: #FA4646;
 }
 
@@ -449,11 +449,11 @@
     background-color: #323232;
 }
 
-.original .uranium .layer0 {
+.original .uranium238 .layer0 {
     background-color: #32F032;
 }
 
-.original .uranium_235 .layer0 {
+.original .uranium235 .layer0 {
     background-color: #46FA46;
 }
 

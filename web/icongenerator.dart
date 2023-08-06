@@ -16,8 +16,9 @@ abstract class IconGenerator {
   static final IconGenerator raiseMidtones = new FunctionProcessor((num n) => 1-n, (num n) => Math.pow(n, 0.7));
 
   static final IconGenerator radioactive = new SequenceProcessor()
-    ..processors.add(new EdgeTrimmer(1))
-    ..processors.add(new FunctionProcessor((num n) => cubicPulse(0.45, 0.4, (1-n) * 0.4), (num n) => n))
+    ..processors.add(new EdgeTrimmer(120))
+    ..processors.add(new FunctionProcessor((num n) => cubicPulse(0.85, 0.6, (1-n)) * 0.2, (num n) => n * 0.5 + 0.5))
+    ..processors.add(new NoiseGenerator(0, strength: 0.45, frames: 16))
   ;
 
   CanvasElement processIcon(CanvasImageSource image);
@@ -161,6 +162,39 @@ class EdgeTrimmer extends IconGenerator {
     }
 
     ctx.putImageData(replacementImgData, 0, 0);
+
+    return canvas;
+  }
+}
+
+class NoiseGenerator extends IconGenerator {
+  final Math.Random random;
+  final int frames;
+  final double strength;
+
+  NoiseGenerator(int seed, {int this.frames = 1, double this.strength = 0.5}):random = new Math.Random(seed);
+
+  @override
+  CanvasElement processIcon(CanvasImageSource image) {
+    final int width = image.width!;
+    final int height = image.height!;
+    final CanvasElement canvas = new CanvasElement(width: width, height: height * frames);
+    final CanvasRenderingContext2D ctx = canvas.context2D;
+
+    for (int i=0; i<frames; i++) {
+      ctx.drawImage(image, 0, height * i);
+    }
+
+    final ImageData imgData = ctx.getImageData(0, 0, width, height*frames);
+    final Uint8ClampedList data = imgData.data;
+
+    // only care about the alpha channel
+    // i always hits an alpha value here
+    for(int i=3; i<data.length; i+=4) {
+      data[i] = ((data[i]/255) * ((1-strength) + (strength * random.nextDouble())).clamp(0, 1) * 255).floor();
+    }
+
+    ctx.putImageData(imgData, 0, 0);
 
     return canvas;
   }

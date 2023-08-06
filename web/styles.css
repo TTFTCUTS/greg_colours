@@ -39,6 +39,7 @@ html, body {
     width:64px;
     height:64px;
     margin:2px;
+    overflow:hidden;
 }
 
 .icon img {
@@ -58,9 +59,19 @@ html, body {
     left:0;
     background-color: #FFFFFF;
     -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
     image-rendering:pixelated;
     background-size: 100%;
     background-blend-mode:multiply;
+}
+
+@keyframes animateFrames {
+    from {
+        transform: translateY(0%);
+    }
+    to {
+        transform: translateY(-100%);
+    }
 }
 
 .hidden {

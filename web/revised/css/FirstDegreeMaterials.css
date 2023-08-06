@@ -107,7 +107,10 @@
 }
 
 .revised .electrum .layer0 {
-    background-color: #FFFF64;
+    background-color: #ffff8b;
+}
+.revised .electrum .layer1 {
+    background-color: #ff8533;
 }
 
 .revised .emerald .layer0 {
@@ -367,6 +370,9 @@
 
 .revised .graphene .layer0 {
     background-color: #808080;
+}
+.revised .graphene .layer1 {
+    background-color: #3d3838;
 }
 
 .revised .tungstic_acid .layer0 {
@@ -731,7 +737,10 @@
 }
 
 .revised .gallium_sulfide .layer0 {
-    background-color: #FFF59E;
+    background-color: #ffee5d;
+}
+.revised .gallium_sulfide .layer1 {
+    background-color: #edf008;
 }
 
 .revised .antimony_trifluoride .layer0 {
