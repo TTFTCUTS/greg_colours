@@ -51,7 +51,10 @@
 }
 
 .revised .goethite .layer0 {
-    background-color: #C86400;
+    background-color: #97873a;
+}
+.revised .goethite .layer1 {
+    background-color: #313131;
 }
 
 .revised .calcite .layer0 {
@@ -142,7 +145,10 @@
 }
 
 .revised .garnierite .layer0 {
-    background-color: #32C846;
+    background-color: #32c880;
+}
+.revised .garnierite .layer1 {
+    background-color: #344028;
 }
 
 .revised .green_sapphire .layer0 {
@@ -488,6 +494,9 @@
 .revised .ferrite_mixture .layer0 {
     background-color: #B4B4B4;
 }
+.revised .ferrite_mixture .layer1 {
+    background-color: #763200;
+}
 
 .revised .magnesia .layer0 {
     background-color: #887878;
@@ -745,7 +754,10 @@
 }
 
 .revised .enriched_naquadah_trinium_europium_duranide .layer0 {
-    background-color: #FFFFFF;
+    background-color: #c5c1a4;
+}
+.revised .enriched_naquadah_trinium_europium_duranide .layer1 {
+    background-color: #2b0645;
 }
 
 .revised .inert_metal_mixture .layer0 {
@@ -826,7 +838,10 @@
 }
 
 .revised .enriched_naquadah_sulfate .layer0 {
-    background-color: #2E2E1C;
+    background-color: #ff8023;
+}
+.revised .enriched_naquadah_sulfate .layer1 {
+    background-color: #044610;
 }
 
 .revised .naquadria_sulfate .layer0 {

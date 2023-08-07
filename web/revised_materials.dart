@@ -35,7 +35,7 @@ enum RevisedMaterials with Material {
   deuterium(),
   dubnium.radioactive(),
   dysprosium.metallic(),
-  einsteinium.metallic(),
+  einsteinium.radioactive(),
   erbium.metallic(),
   europium.metallic(),
   fermium.metallic(),

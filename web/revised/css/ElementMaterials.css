@@ -175,15 +175,24 @@
 }
 
 .revised .erbium .layer0 {
-
+    background-color: #eccbdb;
+}
+.revised .erbium .layer1 {
+    background-color: #5d625a;
 }
 
 .revised .europium .layer0 {
-    background-color: #20FFFF;
+    background-color: #988b33;
+}
+.revised .europium .layer1 {
+    background-color: #032a52;
 }
 
 .revised .fermium .layer0 {
-    background-color: #984ACF;
+    background-color: #c99fe7;
+}
+.revised .fermium .layer1 {
+    background-color: #3e0022;
 }
 
 .revised .flerovium .layer0 {
@@ -205,7 +214,10 @@
 }
 
 .revised .gadolinium .layer0 {
-    background-color: #DDDDFF;
+    background-color: #828a7a;
+}
+.revised .gadolinium .layer1 {
+    background-color: #363420;
 }
 
 .revised .gallium .layer0 {
@@ -241,7 +253,10 @@
 }
 
 .revised .holmium .layer0 {
-
+    background-color: #5c706d;
+}
+.revised .holmium .layer1 {
+    background-color: #1d2b2d;
 }
 
 .revised .hydrogen .layer0 {
@@ -649,6 +664,9 @@
 
 .revised .enriched_naquadah .layer0 {
     background-color: #3C3C3C;
+}
+.revised .enriched_naquadah .layer1 {
+    background-color: #122f06;
 }
 
 .revised .naquadria .layer0 {
