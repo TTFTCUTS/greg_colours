@@ -2,6 +2,10 @@
     background-color: #C3D1FF;
 }
 
+.revised .actinium .layer1 {
+    background-color: #353d41;
+}
+
 .revised .aluminium .layer0 {
     background-color: #80C8F0;
 }
@@ -33,7 +37,11 @@
 }
 
 .revised .barium .layer0 {
-    background-color: #83824C;
+    background-color: #ede192;
+}
+
+.revised .barium .layer1 {
+    background-color: #5d9b8d;
 }
 
 .revised .berkelium .layer0 {
@@ -41,11 +49,19 @@
 }
 
 .revised .beryllium .layer0 {
-    background-color: #64B464;
+    background-color: #98d677;
+}
+
+.revised .beryllium .layer1 {
+    background-color: #254d40;
 }
 
 .revised .bismuth .layer0 {
-    background-color: #64A0A0;
+    background-color: #89dbdb;
+}
+
+.revised .bismuth .layer1 {
+    background-color: #845c6a;
 }
 
 .revised .bohrium .layer0 {
@@ -67,11 +83,19 @@
 }
 
 .revised .caesium .layer0 {
-    background-color: #80620B;
+    background-color: #fff4c3;
+}
+
+.revised .caesium .layer1 {
+    background-color: #cd9800;
 }
 
 .revised .calcium .layer0 {
     background-color: #FFF5DE;
+}
+
+.revised .calcium .layer1 {
+    background-color: #FFFFFF;
 }
 
 .revised .californium .layer0 {
@@ -87,6 +111,10 @@
 }
 .revised .cadmium .layer1 {
     background-color: #412738;
+}
+
+.revised .cerium .layer0 {
+    background-color: #eaf6ba;
 }
 
 .revised .cerium .layer0 {
@@ -244,7 +272,11 @@
 }
 
 .revised .iron .layer0 {
-    background-color: #C8C8C8;
+    background-color: #eeeeee;
+}
+
+.revised .iron .layer1 {
+    background-color: #979797;
 }
 
 .revised .krypton .layer0 {

@@ -18,7 +18,11 @@
 }
 
 .revised .blue_steel .layer0 {
-    background-color: #64648C;
+    background-color: #929292;
+}
+
+.revised .blue_steel .layer1 {
+    background-color: #41415b;
 }
 
 .revised .basalt .layer0 {

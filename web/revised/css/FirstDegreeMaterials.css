@@ -35,11 +35,19 @@
 }
 
 .revised .brass .layer0 {
-    background-color: #FFB400;
+    background-color: #ffe36e;
+}
+
+.revised .brass .layer1 {
+    background-color: #96793c;
 }
 
 .revised .bronze .layer0 {
-    background-color: #FF8000;
+    background-color: #ffc370;
+}
+
+.revised .bronze .layer1 {
+    background-color: #806752;
 }
 
 .revised .goethite .layer0 {
@@ -224,7 +232,11 @@
 }
 
 .revised .biotite .layer0 {
-    background-color: #141E14;
+    background-color: #343b34;
+}
+
+.revised .biotite .layer1 {
+    background-color: #121200;
 }
 
 .revised .powellite .layer0 {
@@ -410,7 +422,11 @@
 }
 
 .revised .bornite .layer0 {
-    background-color: #97662B;
+    background-color: #ffe05a;
+}
+
+.revised .bornite .layer1 {
+    background-color: #442602;
 }
 
 .revised .chalcocite .layer0 {
@@ -552,7 +568,11 @@
 }
 
 .revised .alunite .layer0 {
-    background-color: #E1B441;
+    background-color: #fbd677;
+}
+
+.revised .alunite .layer1 {
+    background-color: #e11e0a;
 }
 
 .revised .talc .layer0 {
@@ -747,7 +767,11 @@
 }
 
 .revised .calcium_phosphide .layer0 {
-    background-color: #A52A2A;
+    background-color: #FFF5DE;
+}
+
+.revised .calcium_phosphide .layer1 {
+    background-color: #f6baba;
 }
 
 .revised .indium_phosphide .layer0 {
@@ -758,7 +782,11 @@
 }
 
 .revised .barium_sulfide .layer0 {
-    background-color: #F0EAD6;
+    background-color: #80784a;
+}
+
+.revised .barium_sulfide .layer1 {
+    background-color: #2c333b;
 }
 
 .revised .trinium_sulfide .layer0 {

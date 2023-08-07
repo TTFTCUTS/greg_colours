@@ -42,7 +42,11 @@
 }
 
 .revised .black_steel .layer0 {
-    background-color: #646464;
+    background-color: #898989;
+}
+
+.revised .black_steel .layer1 {
+    background-color: #444444;
 }
 
 .revised .damascus_steel .layer0 {
