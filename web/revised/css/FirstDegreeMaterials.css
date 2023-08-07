@@ -39,7 +39,7 @@
 }
 
 .revised .brass .layer1 {
-    background-color: #96793c;
+    background-color: #935828;
 }
 
 .revised .bronze .layer0 {
@@ -75,7 +75,10 @@
 }
 
 .revised .chromite .layer0 {
-    background-color: #23140F;
+    background-color: #c5c1a8;
+}
+.revised .chromite .layer1 {
+    background-color: #4c1a69;
 }
 
 .revised .cinnabar .layer0 {
@@ -95,15 +98,24 @@
 }
 
 .revised .cobaltite .layer0 {
-    background-color: #5050FA;
+    background-color: #1975ff;
+}
+.revised .cobaltite .layer1 {
+    background-color: #56071f;
 }
 
 .revised .cooperite .layer0 {
-    background-color: #FFFFC8;
+    background-color: #e9ffa7;
+}
+.revised .cooperite .layer1 {
+    background-color: #665f2f;
 }
 
 .revised .cupronickel .layer0 {
-    background-color: #E39680;
+    background-color: #ffda8a;
+}
+.revised .cupronickel .layer1 {
+    background-color: #cd2b00;
 }
 
 .revised .dark_ash .layer0 {
@@ -769,7 +781,6 @@
 .revised .calcium_phosphide .layer0 {
     background-color: #FFF5DE;
 }
-
 .revised .calcium_phosphide .layer1 {
     background-color: #f6baba;
 }
@@ -808,6 +819,9 @@
 }
 
 .revised .antimony_trifluoride .layer0 {
+    background-color: #fffbef;
+}
+.revised .antimony_trifluoride .layer1 {
     background-color: #F7EABC;
 }
 

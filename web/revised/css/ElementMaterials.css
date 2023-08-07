@@ -83,19 +83,17 @@
 }
 
 .revised .caesium .layer0 {
-    background-color: #fff4c3;
+    background-color: #e9e5d2;
 }
-
 .revised .caesium .layer1 {
-    background-color: #cd9800;
+    background-color: #aa9864;
 }
 
 .revised .calcium .layer0 {
     background-color: #FFF5DE;
 }
-
 .revised .calcium .layer1 {
-    background-color: #FFFFFF;
+    background-color: #a4a4a4;
 }
 
 .revised .californium .layer0 {
@@ -114,10 +112,9 @@
 }
 
 .revised .cerium .layer0 {
-    background-color: #eaf6ba;
+    background-color: #d3d7c3;
 }
-
-.revised .cerium .layer0 {
+.revised .cerium .layer1 {
     background-color: #87917D;
 }
 
@@ -133,7 +130,10 @@
 }
 
 .revised .cobalt .layer0 {
-    background-color: #5050FA;
+    background-color: #f1e2d1;
+}
+.revised .cobalt .layer1 {
+    background-color: #1d1dd6;
 }
 
 .revised .copernicium .layer0 {
@@ -164,7 +164,10 @@
 }
 
 .revised .dysprosium .layer0 {
-
+    background-color: #6a664b;
+}
+.revised .dysprosium .layer1 {
+    background-color: #423307;
 }
 
 .revised .einsteinium .layer0 {
