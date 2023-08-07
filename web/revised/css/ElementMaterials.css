@@ -83,19 +83,17 @@
 }
 
 .revised .caesium .layer0 {
-    background-color: #fff4c3;
+    background-color: #e9e5d2;
 }
-
 .revised .caesium .layer1 {
-    background-color: #cd9800;
+    background-color: #aa9864;
 }
 
 .revised .calcium .layer0 {
     background-color: #FFF5DE;
 }
-
 .revised .calcium .layer1 {
-    background-color: #FFFFFF;
+    background-color: #a4a4a4;
 }
 
 .revised .californium .layer0 {
@@ -114,10 +112,9 @@
 }
 
 .revised .cerium .layer0 {
-    background-color: #eaf6ba;
+    background-color: #d3d7c3;
 }
-
-.revised .cerium .layer0 {
+.revised .cerium .layer1 {
     background-color: #87917D;
 }
 
@@ -133,7 +130,10 @@
 }
 
 .revised .cobalt .layer0 {
-    background-color: #5050FA;
+    background-color: #f1e2d1;
+}
+.revised .cobalt .layer1 {
+    background-color: #1d1dd6;
 }
 
 .revised .copernicium .layer0 {
@@ -164,7 +164,10 @@
 }
 
 .revised .dysprosium .layer0 {
-
+    background-color: #6a664b;
+}
+.revised .dysprosium .layer1 {
+    background-color: #423307;
 }
 
 .revised .einsteinium .layer0 {
@@ -172,15 +175,24 @@
 }
 
 .revised .erbium .layer0 {
-
+    background-color: #eccbdb;
+}
+.revised .erbium .layer1 {
+    background-color: #5d625a;
 }
 
 .revised .europium .layer0 {
-    background-color: #20FFFF;
+    background-color: #988b33;
+}
+.revised .europium .layer1 {
+    background-color: #032a52;
 }
 
 .revised .fermium .layer0 {
-    background-color: #984ACF;
+    background-color: #c99fe7;
+}
+.revised .fermium .layer1 {
+    background-color: #3e0022;
 }
 
 .revised .flerovium .layer0 {
@@ -202,7 +214,10 @@
 }
 
 .revised .gadolinium .layer0 {
-    background-color: #DDDDFF;
+    background-color: #828a7a;
+}
+.revised .gadolinium .layer1 {
+    background-color: #363420;
 }
 
 .revised .gallium .layer0 {
@@ -238,7 +253,10 @@
 }
 
 .revised .holmium .layer0 {
-
+    background-color: #5c706d;
+}
+.revised .holmium .layer1 {
+    background-color: #1d2b2d;
 }
 
 .revised .hydrogen .layer0 {
@@ -646,6 +664,9 @@
 
 .revised .enriched_naquadah .layer0 {
     background-color: #3C3C3C;
+}
+.revised .enriched_naquadah .layer1 {
+    background-color: #122f06;
 }
 
 .revised .naquadria .layer0 {

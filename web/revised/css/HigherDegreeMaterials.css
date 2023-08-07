@@ -18,11 +18,10 @@
 }
 
 .revised .blue_steel .layer0 {
-    background-color: #929292;
+    background-color: #a5bdda;
 }
-
 .revised .blue_steel .layer1 {
-    background-color: #41415b;
+    background-color: #24245f;
 }
 
 .revised .basalt .layer0 {
@@ -48,7 +47,10 @@
 }
 
 .revised .hssg .layer0 {
-    background-color: #999900;
+    background-color: #9cbabe;
+}
+.revised .hssg .layer1 {
+    background-color: #032550;
 }
 
 .revised .red_alloy .layer0 {
@@ -60,11 +62,17 @@
 }
 
 .revised .hsse .layer0 {
-    background-color: #336600;
+    background-color: #9d9cbe;
+}
+.revised .hsse .layer1 {
+    background-color: #2b0350;
 }
 
 .revised .hsss .layer0 {
-    background-color: #660033;
+    background-color: #ae9abe;
+}
+.revised .hsss .layer1 {
+    background-color: #66000e;
 }
 
 .revised .iridium_metal_residue .layer0 {

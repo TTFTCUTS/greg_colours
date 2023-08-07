@@ -52,13 +52,19 @@
 .revised .damascus_steel .layer0 {
     background-color: #6E6E6E;
 }
+.revised .damascus_steel .layer1 {
+    background-color: #302222;
+}
 
 .revised .tungsten_steel .layer0 {
     background-color: #6464A0;
 }
 
 .revised .cobalt_brass .layer0 {
-    background-color: #B4B4A0;
+    background-color: #bbac82;
+}
+.revised .cobalt_brass .layer1 {
+    background-color: #596338;
 }
 
 .revised .tricalcium_phosphate .layer0 {

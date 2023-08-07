@@ -324,7 +324,7 @@ enum OriginalMaterials with Material {
   trinium_sulfide.shiny(),
   zinc_sulfide(),
   gallium_sulfide.shiny(),
-  antomony_trifluoride.metallic(),
+  antimony_trifluoride.metallic(),
   enriched_naquadah_sulfate.metallic(),
   naquadria_sulfate.shiny(),
   pyrochlore.metallic(),
