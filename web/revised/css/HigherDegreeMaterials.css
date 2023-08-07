@@ -70,7 +70,10 @@
 }
 
 .revised .brick .layer0 {
-    background-color: #9B5643;
+    background-color: #c76245;
+}
+.revised .brick .layer1 {
+    background-color: #2d1610;
 }
 
 .revised .fireclay .layer0 {
