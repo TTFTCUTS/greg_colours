@@ -286,13 +286,15 @@
 }
 
 .revised .iridium .layer0 {
-    background-color: #A1E4E4;
+    background-color: #fdfce9;
+}
+.revised .iridium .layer1 {
+    background-color: #3d011b;
 }
 
 .revised .iron .layer0 {
     background-color: #eeeeee;
 }
-
 .revised .iron .layer1 {
     background-color: #979797;
 }
@@ -302,11 +304,17 @@
 }
 
 .revised .lanthanum .layer0 {
+    background-color: #e8e0c2;
+}
+.revised .lanthanum .layer1 {
     background-color: #5D7575;
 }
 
 .revised .lawrencium .layer0 {
-
+    background-color: #5D7575;
+}
+.revised .lawrencium .layer1 {
+    background-color: #5D7575;
 }
 
 .revised .lead .layer0 {
@@ -325,11 +333,17 @@
 }
 
 .revised .lutetium .layer0 {
-    background-color: #00AAFF;
+    background-color: #e6faea;
+}
+.revised .lutetium .layer1 {
+    background-color: #231809;
 }
 
 .revised .magnesium .layer0 {
     background-color: #FFC8C8;
+}
+.revised .magnesium .layer1 {
+    background-color: #2a2e15;
 }
 
 .revised .mendelevium .layer0 {

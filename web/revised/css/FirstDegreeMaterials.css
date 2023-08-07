@@ -170,7 +170,10 @@
 }
 
 .revised .ilmenite .layer0 {
-    background-color: #463732;
+    background-color: #2b2a24;
+}
+.revised .ilmenite .layer1 {
+    background-color: #2b1700;
 }
 
 .revised .rutile .layer0 {
@@ -182,11 +185,17 @@
 }
 
 .revised .invar .layer0 {
-    background-color: #B4B478;
+    background-color: #e2e8e1;
+}
+.revised .invar .layer1 {
+    background-color: #495d57;
 }
 
 .revised .kanthal .layer0 {
     background-color: #C2D2DF;
+}
+.revised .kanthal .layer1 {
+    background-color: #4c4238;
 }
 
 .revised .lazurite .layer0 {
@@ -194,11 +203,17 @@
 }
 
 .revised .magnesite .layer0 {
-    background-color: #FAFAB4;
+    background-color: #fbfbf6;
+}
+.revised .magnesite .layer1 {
+    background-color: #80705e;
 }
 
 .revised .magnetite .layer0 {
-    background-color: #1E1E1E;
+    background-color: #9d9d9d;
+}
+.revised .magnetite .layer1 {
+    background-color: #06070e;
 }
 
 .revised .molybdenite .layer0 {
@@ -730,7 +745,10 @@
 }
 
 .revised .magnesium_diboride .layer0 {
-    background-color: #331900;
+    background-color: #603c1a;
+}
+.revised .magnesium_diboride .layer1 {
+    background-color: #423e39;
 }
 
 .revised .mercury_barium_calcium_cuprate .layer0 {
@@ -755,7 +773,10 @@
 }
 
 .revised .indium_tin_barium_titanium_cuprate .layer0 {
-    background-color: #994C00;
+    background-color: #686760;
+}
+.revised .indium_tin_barium_titanium_cuprate .layer1 {
+    background-color: #673300;
 }
 
 .revised .uranium_rhodium_dinaquadide .layer0 {
@@ -770,7 +791,10 @@
 }
 
 .revised .inert_metal_mixture .layer0 {
-    background-color: #E2AE72;
+    background-color: #c1aa8d;
+}
+.revised .inert_metal_mixture .layer1 {
+    background-color: #6a1600;
 }
 
 .revised .rhodium_sulfate .layer0 {
@@ -786,7 +810,10 @@
 }
 
 .revised .iridium_chloride .layer0 {
-    background-color: #013220;
+    background-color: #373c09;
+}
+.revised .iridium_chloride .layer1 {
+    background-color: #012213;
 }
 
 .revised .fluoroantimonic_acid .layer0 {
