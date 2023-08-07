@@ -59,7 +59,10 @@
 }
 
 .revised .cassiterite .layer0 {
-    background-color: #DCDCDC;
+    background-color: #89847e;
+}
+.revised .cassiterite .layer1 {
+    background-color: #3b3b35;
 }
 
 .revised .cassiterite_sand .layer0 {
@@ -244,7 +247,10 @@
 }
 
 .revised .pyrite .layer0 {
-    background-color: #967828;
+    background-color: #fffee6;
+}
+.revised .pyrite .layer1 {
+    background-color: #b69f4e;
 }
 
 .revised .pyrolusite .layer0 {
@@ -486,7 +492,10 @@
 }
 
 .revised .sodium_bicarbonate .layer0 {
-    background-color: #565b96;
+    background-color: #FFFFFF;
+}
+.revised .sodium_bicarbonate .layer1 {
+    background-color: #a7d2df;
 }
 
 .revised .potassium_dichromate .layer0 {

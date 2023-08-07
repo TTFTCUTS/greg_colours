@@ -74,11 +74,17 @@
 }
 
 .revised .marble .layer0 {
-    background-color: #C8C8C8;
+    background-color: #f0f5f4;
+}
+.revised .marble .layer1 {
+    background-color: #b3b3b3;
 }
 
 .revised .deepslate .layer0 {
-    background-color: #0A0A0A;
+    background-color: #797979;
+}
+.revised .deepslate .layer1 {
+    background-color: #2f2f37;
 }
 
 .revised .granite_red .layer0 {
@@ -98,7 +104,10 @@
 }
 
 .revised .bentonite .layer0 {
-    background-color: #F5D7D2;
+    background-color: #ede8a3;
+}
+.revised .bentonite .layer1 {
+    background-color: #cdb44c;
 }
 
 .revised .fullers_earth .layer0 {
@@ -130,7 +139,10 @@
 }
 
 .revised .concrete .layer0 {
-    background-color: #646464;
+    background-color: #faf3e8;
+}
+.revised .concrete .layer1 {
+    background-color: #bbbaba;
 }
 
 .revised .magnetic_steel .layer0 {
@@ -153,7 +165,10 @@
 }
 
 .revised .andesite .layer0 {
-    background-color: #BEBEBE;
+    background-color: #a8aa9a;
+}
+.revised .andesite .layer1 {
+    background-color: #a8aa9a;
 }
 
 .revised .naquadah_alloy .layer0 {
@@ -245,9 +260,15 @@
 }
 
 .revised .clay .layer0 {
-    background-color: #C8C8DC;
+    background-color: #bec9e8;
+}
+.revised .clay .layer1 {
+    background-color: #373944;
 }
 
 .revised .redstone .layer0 {
-    background-color: #C80000;
+    background-color: #ff0000;
+}
+.revised .redstone .layer1 {
+    background-color: #340605;
 }

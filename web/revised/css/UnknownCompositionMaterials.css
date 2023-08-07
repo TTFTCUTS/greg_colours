@@ -281,7 +281,10 @@
 }
 
 .revised .gunpowder .layer0 {
-    background-color: #808080;
+    background-color: #a4a4a4;
+}
+.revised .gunpowder .layer1 {
+    background-color: #767676;
 }
 
 .revised .oilsands .layer0 {
@@ -293,7 +296,10 @@
 }
 
 .revised .stone .layer0 {
-    background-color: #CDCDCD;
+    background-color: #8f8f8f;
+}
+.revised .stone .layer1 {
+    background-color: #898989;
 }
 
 .revised .lava .layer0 {
@@ -323,15 +329,24 @@
 }
 
 .revised .collagen .layer0 {
+    background-color: #ffadb7;
+}
+.revised .collagen .layer1 {
     background-color: #80471C;
 }
 
 .revised .gelatin .layer0 {
-    background-color: #588BAE;
+    background-color: #faf7cb;
+}
+.revised .gelatin .layer1 {
+    background-color: #693d00;
 }
 
 .revised .agar .layer0 {
-    background-color: #4F7942;
+    background-color: #bdd168;
+}
+.revised .agar .layer1 {
+    background-color: #403218;
 }
 
 .revised .milk .layer0 {

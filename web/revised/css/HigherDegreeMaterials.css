@@ -26,7 +26,10 @@
 }
 
 .revised .basalt .layer0 {
-    background-color: #3C3232;
+    background-color: #5c5c5c;
+}
+.revised .basalt .layer1 {
+    background-color: #1b2632;
 }
 
 .revised .granitic_mineral_sand .layer0 {
@@ -34,7 +37,10 @@
 }
 
 .revised .redrock .layer0 {
-    background-color: #FF5032;
+    background-color: #ffa49e;
+}
+.revised .redrock .layer1 {
+    background-color: #52362a;
 }
 
 .revised .garnet_sand .layer0 {
@@ -66,7 +72,10 @@
 }
 
 .revised .granite .layer0 {
-    background-color: #CFA18C;
+    background-color: #d69077;
+}
+.revised .granite .layer1 {
+    background-color: #71352c;
 }
 
 .revised .brick .layer0 {
@@ -77,10 +86,17 @@
 }
 
 .revised .fireclay .layer0 {
-    background-color: #ADA09B;
+    background-color: #ffeab6;
+}
+.revised .fireclay .layer1 {
+    background-color: #84581c;
 }
 
 .revised .diorite .layer0 {
+    background-color: #e9e9e9;
+}
+.revised .diorite .layer1 {
+    background-color: #7b7b7b;
 }
 
 .revised .blue_alloy .layer0 {
