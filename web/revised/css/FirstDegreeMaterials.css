@@ -217,11 +217,17 @@
 }
 
 .revised .molybdenite .layer0 {
+    background-color: #e3ddc3;
+}
+.revised .molybdenite .layer1 {
     background-color: #191919;
 }
 
 .revised .nichrome .layer0 {
-    background-color: #CDCEF6;
+    background-color: #ebe6d6;
+}
+.revised .nichrome .layer1 {
+    background-color: #282b42;
 }
 
 .revised .niobium_nitride .layer0 {
@@ -241,7 +247,10 @@
 }
 
 .revised .platinum_raw .layer0 {
-    background-color: #FFFFC8;
+    background-color: #a09a7b;
+}
+.revised .platinum_raw .layer1 {
+    background-color: #4e4e45;
 }
 
 .revised .sterling_silver .layer0 {
@@ -357,7 +366,10 @@
 }
 
 .revised .steel .layer0 {
-    background-color: #808080;
+    background-color: #a7a7a7;
+}
+.revised .steel .layer1 {
+    background-color: #121c37;
 }
 
 .revised .stibnite .layer0 {
@@ -449,7 +461,10 @@
 }
 
 .revised .osmiridium .layer0 {
-    background-color: #6464FF;
+    background-color: #e5dcef;
+}
+.revised .osmiridium .layer1 {
+    background-color: #241a44;
 }
 
 .revised .lithium_chloride .layer0 {
@@ -489,7 +504,10 @@
 }
 
 .revised .nickel_zinc_ferrite .layer0 {
-    background-color: #3C3C3C;
+    background-color: #3f2821;
+}
+.revised .nickel_zinc_ferrite .layer1 {
+    background-color: #2c2725;
 }
 
 .revised .silicon_dioxide .layer0 {
@@ -570,6 +588,9 @@
 }
 
 .revised .metal_mixture .layer0 {
+    background-color: #697077;
+}
+.revised .metal_mixture .layer1 {
     background-color: #502d16;
 }
 
@@ -808,6 +829,9 @@
 .revised .osmium_tetroxide .layer0 {
     background-color: #ACAD71;
 }
+.revised .osmium_tetroxide .layer1 {
+    background-color: #291f34;
+}
 
 .revised .iridium_chloride .layer0 {
     background-color: #373c09;
@@ -888,7 +912,10 @@
 }
 
 .revised .pyrochlore .layer0 {
-    background-color: #2B1100;
+    background-color: #5b4838;
+}
+.revised .pyrochlore .layer1 {
+    background-color: #331400;
 }
 
 .revised .liquid_helium .layer0 {

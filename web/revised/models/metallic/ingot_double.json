@@ -1,7 +1,6 @@
 {
-  "parent": "item/generated",
+  "parent": "gtceu:item/material_sets/metallic/ingot",
   "textures": {
-    "layer0": "gtceu:item/material_sets/metallic/ingot",
-    "layer1": "gtceu:item/material_sets/metallic/ingot_double_secondary"
+    "layer3": "gtceu:item/material_sets/metallic/ingot_double_overlay"
   }
 }

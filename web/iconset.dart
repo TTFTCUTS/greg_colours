@@ -31,7 +31,7 @@ enum IconSet with EnumName {
   lapis(quartz),
   fluid(dull),
   gas(dull),
-  radioactive(shiny); //metallic once icons are fixed
+  radioactive(metallic);
 
   final IconSet? parent;
 

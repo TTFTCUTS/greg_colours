@@ -383,7 +383,10 @@
 }
 
 .revised .neodymium .layer0 {
-    background-color: #646464;
+    background-color: #9a8b94;
+}
+.revised .neodymium .layer1 {
+    background-color: #2c2c2c;
 }
 
 .revised .neon .layer0 {
@@ -395,7 +398,10 @@
 }
 
 .revised .nickel .layer0 {
-    background-color: #C8C8FA;
+    background-color: #ccdff5;
+}
+.revised .nickel .layer1 {
+    background-color: #59563a;
 }
 
 .revised .nihonium .layer0 {
@@ -406,7 +412,10 @@
 }
 
 .revised .niobium .layer0 {
-    background-color: #BEB4C8;
+    background-color: #e9eacb;
+}
+.revised .niobium .layer1 {
+    background-color: #2f4c35;
 }
 
 .revised .nitrogen .layer0 {
@@ -421,7 +430,10 @@
 }
 
 .revised .osmium .layer0 {
-    background-color: #3232FF;
+    background-color: #f9f9f9;
+}
+.revised .osmium .layer1 {
+    background-color: #307fc2;
 }
 
 .revised .oxygen .layer0 {
@@ -465,11 +477,17 @@
 }
 
 .revised .potassium .layer0 {
-    background-color: #BEDCFF;
+    background-color: #d2e1f2;
+}
+.revised .potassium .layer1 {
+    background-color: #6189b8;
 }
 
 .revised .praseodymium .layer0 {
     background-color: #CECECE;
+}
+.revised .praseodymium .layer1 {
+    background-color: #424d33;
 }
 
 .revised .promethium .layer0 {
@@ -531,11 +549,17 @@
 }
 
 .revised .samarium .layer0 {
-    background-color: #FFFFCC;
+    background-color: #c5c5b3;
+}
+.revised .samarium .layer1 {
+    background-color: #183e3f;
 }
 
 .revised .scandium .layer0 {
-
+    background-color: #b1b2ac;
+}
+.revised .scandium .layer1 {
+    background-color: #1c3433;
 }
 
 .revised .seaborgium .layer0 {
@@ -552,6 +576,13 @@
     background-color: #401b24;
 }
 
+.revised .silicon .layer0 {
+    background-color: #aaaab5;
+}
+.revised .silicon .layer1 {
+    background-color: #10293b;
+}
+
 .revised .silver .layer0 {
     background-color: #DCDCFF;
 }
@@ -560,7 +591,10 @@
 }
 
 .revised .sodium .layer0 {
-    background-color: #000096;
+    background-color: #abb1ba;
+}
+.revised .sodium .layer1 {
+    background-color: #2b30a3;
 }
 
 .revised .strontium .layer0 {

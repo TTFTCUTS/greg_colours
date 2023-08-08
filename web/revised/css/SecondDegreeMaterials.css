@@ -42,11 +42,10 @@
 }
 
 .revised .black_steel .layer0 {
-    background-color: #898989;
+    background-color: #666666;
 }
-
 .revised .black_steel .layer1 {
-    background-color: #444444;
+    background-color: #1a120e;
 }
 
 .revised .damascus_steel .layer0 {
@@ -152,15 +151,22 @@
 }
 
 .revised .magnetic_steel .layer0 {
-    background-color: #808080;
+    background-color: #a7a7a7;
 }
+.revised .magnetic_steel .layer1 {
+    background-color: #121c37;
+}
+
 
 .revised .vanadium_steel .layer0 {
     background-color: #c0c0c0;
 }
 
 .revised .potin .layer0 {
-    background-color: #c99781;
+    background-color: #aaada3;
+}
+.revised .potin .layer1 {
+    background-color: #5e3320;
 }
 
 .revised .borosilicate_glass .layer0 {
@@ -178,7 +184,10 @@
 }
 
 .revised .naquadah_alloy .layer0 {
-    background-color: #282828;
+    background-color: #323232;
+}
+.revised .naquadah_alloy .layer1 {
+    background-color: #301131;
 }
 
 .revised .sulfuric_nickel_solution .layer0 {
@@ -241,6 +250,10 @@
 }
 
 .revised .palladium_raw .layer0 {
+    background-color: #5d4e1a;
+}
+.revised .palladium_raw .layer1 {
+    background-color: #33352d;
 }
 
 .revised .rarest_metal_mixture .layer0 {

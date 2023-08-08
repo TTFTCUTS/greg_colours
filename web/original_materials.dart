@@ -78,7 +78,7 @@ enum OriginalMaterials with Material {
   niobium.metallic(),
   nitrogen.gas(),
   nobelium.shiny(),
-  organesson.metallic(),
+  oganesson.metallic(),
   osmium.metallic(),
   oxygen(),
   palladium.shiny(),

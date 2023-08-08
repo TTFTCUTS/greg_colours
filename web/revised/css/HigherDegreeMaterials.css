@@ -14,7 +14,10 @@
 }
 
 .revised .red_steel .layer0 {
-    background-color: #8C6464;
+    background-color: #a09191;
+}
+.revised .red_steel .layer1 {
+    background-color: #500404;
 }
 
 .revised .blue_steel .layer0 {
