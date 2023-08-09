@@ -1,5 +1,4 @@
 import "dart:html";
-import "dart:math" as Math;
 
 import "iconset.dart";
 
@@ -44,4 +43,8 @@ extension CanvasImageSourceDimensions on CanvasImageSource {
     if (this is CanvasElement) { return (this as CanvasElement).height; }
     return null;
   }
+}
+
+extension CanvasContextExtension on CanvasElement {
+  CanvasRenderingContext2D get context2DReadFrequently => this.getContext("2d", <dynamic,dynamic>{"willReadFrequently": true}) as CanvasRenderingContext2D;
 }

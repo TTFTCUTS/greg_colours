@@ -30,7 +30,7 @@ class TestProcessor extends IconGenerator {
     final int width = image.width!;
     final int height = image.height!;
     final CanvasElement canvas = new CanvasElement(width: width, height: height);
-    final CanvasRenderingContext2D ctx = canvas.context2D;
+    final CanvasRenderingContext2D ctx = canvas.context2DReadFrequently;
 
     ctx.fillStyle = "#CC80CC";
     ctx.fillRect(0, 0, width, height);
@@ -69,7 +69,7 @@ class FunctionProcessor extends IconGenerator {
     final int width = image.width!;
     final int height = image.height!;
     final CanvasElement canvas = new CanvasElement(width: width, height: height);
-    final CanvasRenderingContext2D ctx = canvas.context2D;
+    final CanvasRenderingContext2D ctx = canvas.context2DReadFrequently;
 
     ctx.drawImage(image, 0, 0);
     final ImageData imgData = ctx.getImageData(0, 0, width, height);
@@ -138,7 +138,7 @@ class EdgeTrimmer extends IconGenerator {
     final int width = image.width!;
     final int height = image.height!;
     final CanvasElement canvas = new CanvasElement(width: width, height: height);
-    final CanvasRenderingContext2D ctx = canvas.context2D;
+    final CanvasRenderingContext2D ctx = canvas.context2DReadFrequently;
 
     ctx.drawImage(image, 0, 0);
     final ImageData imgData = ctx.getImageData(0, 0, width, height);
@@ -179,7 +179,7 @@ class NoiseGenerator extends IconGenerator {
     final int width = image.width!;
     final int height = image.height!;
     final CanvasElement canvas = new CanvasElement(width: width, height: height * frames);
-    final CanvasRenderingContext2D ctx = canvas.context2D;
+    final CanvasRenderingContext2D ctx = canvas.context2DReadFrequently;
 
     for (int i=0; i<frames; i++) {
       ctx.drawImage(image, 0, height * i);

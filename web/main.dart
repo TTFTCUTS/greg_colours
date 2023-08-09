@@ -203,17 +203,13 @@ Future<Element> itemPreview(String item, String materialSet, Material mat) async
         ..style.maskImage = "url(${icon.src})";
 
       if (frames > 1) {
-        final String animationName = "frames_$frames";
-
         iconElement
           ..style.height = "${100 * frames}%"
           ..style.backgroundPosition = "0% 0%"
           ..style.maskPosition = "0% 0%"
           ..style.animation = "1s steps($frames, end) infinite animateFrames"
         ;
-        print("finished animation $animationName");
       }
-
       return iconElement;
     }
   })).then((List<Element?> elements) {
@@ -312,7 +308,7 @@ Future<String> imgToNoAlphaUrl(CanvasImageSource source) async {
   final int width = source.width!;
   final int height = source.height!;
   final CanvasElement canvas = new CanvasElement(width: width, height: height);
-  final CanvasRenderingContext2D ctx = canvas.context2D;
+  final CanvasRenderingContext2D ctx = canvas.context2DReadFrequently;
 
   ctx.drawImage(source, 0, 0);
 
