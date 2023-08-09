@@ -191,13 +191,15 @@ Future<Element> itemPreview(String item, String materialSet, Material mat) async
   await Future.wait(layers.entries.map((MapEntry<String,String> entry) async {
     final String url = "$materialSet/material_sets/${entry.value}.png";
     final ImageElement? icon = await Loader.getResource(url);
+
     if (icon != null) {
+      final String noAlpha = await getNoAlphaUrl(icon);
       //print("$materialSet ${mat.name} $item w: ${icon.width}, h: ${icon.height}");
       final int frames = icon.height! ~/ icon.width!;
 
       final DivElement iconElement = new DivElement()
         ..className = "img ${entry.key}"
-        ..style.backgroundImage = "url(${icon.src})"
+        ..style.backgroundImage = "url($noAlpha)"
         ..style.maskImage = "url(${icon.src})";
 
       if (frames > 1) {
@@ -292,4 +294,35 @@ Map<String, Map<String,Material>> getMaterialsByName(Map<String,List<Material>> 
   }
 
   return materialMapping;
+}
+
+final Map<String,Future<String>> noAlphaBlobs = <String,Future<String>>{};
+Future<String> getNoAlphaUrl(ImageElement source) async {
+  if (source.src == null) { throw Exception("No src in input image for getNoAlphaUrl"); }
+
+  final String key = source.src!;
+  if (!noAlphaBlobs.containsKey(key)) {
+    //print("Generating no alpha for $key");
+    noAlphaBlobs[key] = imgToNoAlphaUrl(source);
+  }
+  return noAlphaBlobs[key]!;
+}
+
+Future<String> imgToNoAlphaUrl(CanvasImageSource source) async {
+  final int width = source.width!;
+  final int height = source.height!;
+  final CanvasElement canvas = new CanvasElement(width: width, height: height);
+  final CanvasRenderingContext2D ctx = canvas.context2D;
+
+  ctx.drawImage(source, 0, 0);
+
+  final ImageData imgData = ctx.getImageData(0, 0, width, height);
+
+  for (int i=3; i<imgData.data.length; i+=4) {
+    imgData.data[i] = 255;
+  }
+
+  ctx.putImageData(imgData, 0, 0);
+
+  return Loader.createBlobUrl(await canvas.toBlob());
 }
