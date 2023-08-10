@@ -77,7 +77,10 @@
 }
 
 .revised .charcoal .layer0 {
-    background-color: #644646;
+    background-color: #cacaca;
+}
+.revised .charcoal .layer1 {
+    background-color: #474747;
 }
 
 .revised .chromite .layer0 {
@@ -472,7 +475,10 @@
 }
 
 .revised .calcium_chloride .layer0 {
-    background-color: #EBEBFA;
+    background-color: #FFFFFF;
+}
+.revised .calcium_chloride .layer1 {
+    background-color: #e7e7d7;
 }
 
 .revised .bornite .layer0 {
@@ -602,7 +608,10 @@
 }
 
 .revised .bastnasite .layer0 {
-    background-color: #C86E2D;
+    background-color: #caab60;
+}
+.revised .bastnasite .layer1 {
+    background-color: #c8502d;
 }
 
 .revised .pentlandite .layer0 {
