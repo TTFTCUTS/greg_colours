@@ -57,6 +57,9 @@
 }
 
 .revised .red_alloy .layer0 {
+    background-color: #c55252;
+}
+.revised .red_alloy .layer1 {
     background-color: #C80000;
 }
 
@@ -114,5 +117,8 @@
 }
 
 .revised .blue_alloy .layer0 {
+    background-color: #64B4FF;
+}
+.revised .blue_alloy .layer1 {
     background-color: #64B4FF;
 }

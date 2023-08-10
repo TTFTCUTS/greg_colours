@@ -7,10 +7,10 @@
 }
 
 .revised .aluminium .layer0 {
-    background-color: #80C8F0;
+    background-color: #b6e5ff;
 }
 .revised .aluminium .layer1 {
-    background-color: #FF0000;
+    background-color: #7ca29b;
 }
 
 .revised .americium .layer0 {
@@ -29,11 +29,17 @@
 }
 
 .revised .arsenic .layer0 {
+    background-color: #9c9c8d;
+}
+.revised .arsenic .layer1 {
     background-color: #676756;
 }
 
 .revised .astatine .layer0 {
-    background-color: #241A24;
+    background-color: #ffd52e;
+}
+.revised .astatine .layer1 {
+    background-color: #17212b;
 }
 
 .revised .barium .layer0 {
