@@ -122,7 +122,10 @@
 }
 
 .revised .fullers_earth .layer0 {
-    background-color: #A0A078;
+    background-color: #f3efbb;
+}
+.revised .fullers_earth .layer1 {
+    background-color: #b8d066;
 }
 
 .revised .pitchblende .layer0 {

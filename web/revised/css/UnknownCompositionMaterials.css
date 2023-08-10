@@ -292,7 +292,10 @@
 }
 
 .revised .rare_earth .layer0 {
-    background-color: #808064;
+    background-color: #ffdc88;
+}
+.revised .rare_earth .layer1 {
+    background-color: #e99673;
 }
 
 .revised .stone .layer0 {
@@ -350,15 +353,24 @@
 }
 
 .revised .milk .layer0 {
-    background-color: #FEFEFE;
+    background-color: #fffbf0;
+}
+.revised .milk .layer1 {
+    background-color: #f6eac8;
 }
 
 .revised .cocoa .layer0 {
-    background-color: #643200;
+    background-color: #976746;
+}
+.revised .cocoa .layer1 {
+    background-color: #301a0a;
 }
 
 .revised .wheat .layer0 {
-    background-color: #FFFFC4;
+    background-color: #dcbb65;
+}
+.revised .wheat .layer1 {
+    background-color: #565138;
 }
 
 .revised .meat .layer0 {
@@ -373,7 +385,10 @@
 }
 
 .revised .paper .layer0 {
-    background-color: #FAFAFA;
+    background-color: #fcfcf2;
+}
+.revised .paper .layer1 {
+    background-color: #878787;
 }
 
 .revised .fish_oil .layer0 {

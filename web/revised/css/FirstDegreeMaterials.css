@@ -77,10 +77,10 @@
 }
 
 .revised .charcoal .layer0 {
-    background-color: #cacaca;
+    background-color: #7d6f58;
 }
 .revised .charcoal .layer1 {
-    background-color: #474747;
+    background-color: #13110d;
 }
 
 .revised .chromite .layer0 {
@@ -307,6 +307,9 @@
 }
 
 .revised .rock_salt .layer0 {
+    background-color: #ffeae1;
+}
+.revised .rock_salt .layer1 {
     background-color: #F0C8C8;
 }
 
@@ -320,9 +323,15 @@
 .revised .salt .layer0 {
     background-color: #FAFAFA;
 }
+.revised .salt .layer1 {
+    background-color: #FAFAFA;
+}
 
 .revised .saltpeter .layer0 {
     background-color: #E6E6E6;
+}
+.revised .saltpeter .layer0 {
+    background-color: #e6e1cf;
 }
 
 .revised .sapphire .layer0 {
@@ -554,6 +563,9 @@
 }
 
 .revised .platinum_group_sludge .layer0 {
+    background-color: #343228;
+}
+.revised .platinum_group_sludge .layer1 {
     background-color: #001E00;
 }
 
@@ -629,7 +641,10 @@
 }
 
 .revised .lepidolite .layer0 {
-    background-color: #F0328C;
+    background-color: #ffdae4;
+}
+.revised .lepidolite .layer1 {
+    background-color: #75376f;
 }
 
 .revised .glauconite_sand .layer0 {
@@ -641,7 +656,10 @@
 }
 
 .revised .mica .layer0 {
-    background-color: #C3C3CD;
+    background-color: #ecfeff;
+}
+.revised .mica .layer1 {
+    background-color: #c2a03c;
 }
 
 .revised .barite .layer0 {
@@ -657,7 +675,10 @@
 }
 
 .revised .talc .layer0 {
-    background-color: #5AB45A;
+    background-color: #ebffe9;
+}
+.revised .talc .layer1 {
+    background-color: #6fe19b;
 }
 
 .revised .soapstone .layer0 {
@@ -751,7 +772,10 @@
 }
 
 .revised .potassium_feldspar .layer0 {
-    background-color: #782828;
+    background-color: #ffe3bc;
+}
+.revised .potassium_feldspar .layer1 {
+    background-color: #d4918a;
 }
 
 .revised .magnetic_neodymium .layer0 {
