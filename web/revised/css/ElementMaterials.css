@@ -655,7 +655,10 @@
 }
 
 .revised .thulium .layer0 {
-
+    background-color: #afb0a4;
+}
+.revised .thulium .layer1 {
+    background-color: #420b0b;
 }
 
 .revised .tin .layer0 {
@@ -663,15 +666,24 @@
 }
 
 .revised .titanium .layer0 {
-    background-color: #DCA0F0;
+    background-color: #d8d5d9;
+}
+.revised .titanium .layer1 {
+    background-color: #440050;
 }
 
 .revised .tritium .layer0 {
-
+    background-color: #ff316b;
+}
+.revised .tritium .layer1 {
+    background-color: #d00000;
 }
 
 .revised .tungsten .layer0 {
-    background-color: #323232;
+    background-color: #3b3a32;
+}
+.revised .tungsten .layer1 {
+    background-color: #2a2800;
 }
 
 .revised .uranium238 .layer0 {
@@ -738,7 +750,10 @@
 }
 
 .revised .tritanium .layer0 {
-    background-color: #600000;
+    background-color: #c35769;
+}
+.revised .tritanium .layer1 {
+    background-color: #210840;
 }
 
 .revised .duranium .layer0 {
