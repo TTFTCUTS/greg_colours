@@ -130,7 +130,7 @@ enum OriginalMaterials with Material {
   naquadah.metallic(),
   enriched_naquadah.metallic(),
   naquadria.shiny(),
-  netronium(),
+  neutronium(),
   tritanium.metallic(),
   duranium.bright(),
   trinium.shiny(),
