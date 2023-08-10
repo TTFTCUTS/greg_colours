@@ -10,7 +10,10 @@
 }
 
 .revised .borax .layer0 {
-    background-color: #FAFAFA;
+    background-color: #FFFFFF;
+}
+.revised .borax .layer1 {
+    background-color: #d7e7e7;
 }
 
 .revised .salt_water .layer0 {
@@ -34,7 +37,10 @@
 }
 
 .revised .blaze .layer0 {
-    background-color: #FFC800;
+    background-color: #fff94d;
+}
+.revised .blaze .layer1 {
+    background-color: #ff330c;
 }
 
 .revised .apatite .layer0 {
@@ -116,7 +122,10 @@
 }
 
 .revised .fullers_earth .layer0 {
-    background-color: #A0A078;
+    background-color: #f3efbb;
+}
+.revised .fullers_earth .layer1 {
+    background-color: #b8d066;
 }
 
 .revised .pitchblende .layer0 {

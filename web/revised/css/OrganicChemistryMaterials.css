@@ -71,7 +71,10 @@
 }
 
 .revised .sugar .layer0 {
-    background-color: #FAFAFA;
+    background-color: #FFFFFF;
+}
+.revised .sugar .layer1 {
+    background-color: #545468;
 }
 
 .revised .methane .layer0 {
