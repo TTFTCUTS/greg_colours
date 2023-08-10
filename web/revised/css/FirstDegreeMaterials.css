@@ -339,7 +339,10 @@
 }
 
 .revised .tantalite .layer0 {
-    background-color: #915028;
+    background-color: #4e6b94;
+}
+.revised .tantalite .layer1 {
+    background-color: #632300;
 }
 
 .revised .coke .layer0 {
@@ -373,7 +376,10 @@
 }
 
 .revised .stibnite .layer0 {
-    background-color: #464646;
+    background-color: #656565;
+}
+.revised .stibnite .layer1 {
+    background-color: #0a1432;
 }
 
 .revised .tetrahedrite .layer0 {

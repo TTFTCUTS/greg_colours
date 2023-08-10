@@ -598,7 +598,10 @@
 }
 
 .revised .strontium .layer0 {
-    background-color: #C8C8C8;
+    background-color: #7a7953;
+}
+.revised .strontium .layer1 {
+    background-color: #4c0b06;
 }
 
 .revised .sulfur .layer0 {
@@ -606,7 +609,10 @@
 }
 
 .revised .tantalum .layer0 {
-    background-color: #78788c;
+    background-color: #a8a7c6;
+}
+.revised .tantalum .layer1 {
+    background-color: #1f2b20;
 }
 
 .revised .technetium .layer0 {
@@ -628,7 +634,10 @@
 }
 
 .revised .terbium .layer0 {
-
+    background-color: #cedab4;
+}
+.revised .terbium .layer1 {
+    background-color: #263640;
 }
 
 .revised .thorium .layer0 {

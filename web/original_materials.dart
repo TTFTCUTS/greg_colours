@@ -152,7 +152,7 @@ enum OriginalMaterials with Material {
   cassiterite.metallic(),
   cassiterite_sand.sand(),
   chalcopyrite(),
-  chargoal.fine(),
+  charcoal.fine(),
   chromite.metallic(),
   cinnabar.emeraldSet(),
   water(),
