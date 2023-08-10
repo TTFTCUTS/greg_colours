@@ -130,7 +130,7 @@ enum RevisedMaterials with Material {
   naquadah.metallic(),
   enriched_naquadah.metallic(),
   naquadria.radioactive(),
-  netronium(),
+  neutronium(),
   tritanium.metallic(),
   duranium.bright(),
   trinium.shiny(),
