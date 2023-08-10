@@ -1,5 +1,8 @@
 .revised .almandine .layer0 {
-    background-color: #FF0000;
+    background-color: #a21717;
+}
+.revised .almandine .layer1 {
+    background-color: #4b1e0c;
 }
 
 .revised .andradite .layer0 {
@@ -13,9 +16,15 @@
 .revised .asbestos .layer0 {
     background-color: #E6E6E6;
 }
+.revised .asbestos .layer0 {
+    background-color: #dbd7bf;
+}
 
 .revised .ash .layer0 {
-    background-color: #969696;
+    background-color: #d1d1d1;
+}
+.revised .ash .layer1 {
+    background-color: #8b8989;
 }
 
 .revised .hematite .layer0 {
@@ -37,7 +46,6 @@
 .revised .brass .layer0 {
     background-color: #ffe36e;
 }
-
 .revised .brass .layer1 {
     background-color: #935828;
 }
@@ -45,7 +53,6 @@
 .revised .bronze .layer0 {
     background-color: #ffc370;
 }
-
 .revised .bronze .layer1 {
     background-color: #806752;
 }
@@ -242,7 +249,10 @@
 }
 
 .revised .obsidian .layer0 {
-    background-color: #503264;
+    background-color: #3b2754;
+}
+.revised .obsidian .layer1 {
+    background-color: #000001;
 }
 
 .revised .phosphate .layer0 {
@@ -272,11 +282,17 @@
 }
 
 .revised .black_bronze .layer0 {
-    background-color: #64327D;
+    background-color: #8b7c70;
+}
+.revised .black_bronze .layer1 {
+    background-color: #4b3d32;
 }
 
 .revised .bismuth_bronze .layer0 {
-    background-color: #647D7D;
+    background-color: #ffd26f;
+}
+.revised .bismuth_bronze .layer1 {
+    background-color: #895f3d;
 }
 
 .revised .biotite .layer0 {
@@ -347,7 +363,10 @@
 }
 
 .revised .aluminium_sulfite .layer0 {
-    background-color: #CC4BBB;
+    background-color: #d4ecf9;
+}
+.revised .aluminium_sulfite .layer1 {
+    background-color: #a6b9b6;
 }
 
 .revised .tantalite .layer0 {
@@ -600,7 +619,10 @@
 }
 
 .revised .antimony_trioxide .layer0 {
-    background-color: #E6E6F0;
+    background-color: #f5f5ff;
+}
+.revised .antimony_trioxide .layer0 {
+    background-color: #c4c4d6;
 }
 
 .revised .zincite .layer0 {
@@ -755,6 +777,9 @@
 }
 
 .revised .ammonia .layer0 {
+    background-color: #4465a2;
+}
+.revised .ammonia .layer1 {
     background-color: #3F3480;
 }
 

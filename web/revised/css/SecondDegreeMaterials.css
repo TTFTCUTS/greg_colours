@@ -285,7 +285,10 @@
 }
 
 .revised .ammonium_chloride .layer0 {
-    background-color: #9711A6;
+    background-color: #60a1c5;
+}
+.revised .ammonium_chloride .layer1 {
+    background-color: #48619c;
 }
 
 .revised .acidic_osmium_solution .layer0 {
