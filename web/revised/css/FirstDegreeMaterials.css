@@ -421,7 +421,10 @@
 }
 
 .revised .uraninite .layer0 {
-    background-color: #232323;
+    background-color: #ffd52e;
+}
+.revised .uraninite .layer1 {
+    background-color: #17212b;
 }
 
 .revised .uvarovite .layer0 {
@@ -436,7 +439,10 @@
 }
 
 .revised .wrought_iron .layer0 {
-    background-color: #C8B4B4;
+    background-color: #bcbcbc;
+}
+.revised .wrought_iron .layer1 {
+    background-color: #521c0b;
 }
 
 .revised .wulfenite .layer0 {
@@ -444,11 +450,17 @@
 }
 
 .revised .yellow_limonite .layer0 {
-    background-color: #C8C800;
+    background-color: #f5e315;
+}
+.revised .yellow_limonite .layer1 {
+    background-color: #c06f33;
 }
 
 .revised .yttrium_barium_cuprate .layer0 {
-    background-color: #504046;
+    background-color: #796d72;
+}
+.revised .yttrium_barium_cuprate .layer1 {
+    background-color: #260a3a;
 }
 
 .revised .nether_quartz .layer0 {
@@ -697,10 +709,10 @@
 }
 
 .revised .tungsten_carbide .layer0 {
-    background-color: #330066;
+    background-color: #6b6478;
 }
 .revised .tungsten_carbide .layer1 {
-    background-color: #330066;
+    background-color: #392e44;
 }
 
 
@@ -809,6 +821,9 @@
 
 .revised .manganese_phosphide .layer0 {
     background-color: #E1B454;
+}
+.revised .manganese_phosphide .layer1 {
+    background-color: #223033;
 }
 
 .revised .magnesium_diboride .layer0 {

@@ -62,7 +62,10 @@
 }
 
 .revised .tungsten_steel .layer0 {
-    background-color: #6464A0;
+    background-color: #adb8df;
+}
+.revised .tungsten_steel .layer1 {
+    background-color: #03192f;
 }
 
 .revised .cobalt_brass .layer0 {
@@ -103,7 +106,10 @@
 }
 
 .revised .vanadium_magnetite .layer0 {
-    background-color: #23233C;
+    background-color: #8a94a2;
+}
+.revised .vanadium_magnetite .layer1 {
+    background-color: #170322;
 }
 
 .revised .quartz_sand .layer0 {
@@ -171,7 +177,10 @@
 
 
 .revised .vanadium_steel .layer0 {
-    background-color: #c0c0c0;
+    background-color: #d4d1f1;
+}
+.revised .vanadium_steel .layer1 {
+    background-color: #19140d;
 }
 
 .revised .potin .layer0 {

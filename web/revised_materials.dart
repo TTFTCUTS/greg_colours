@@ -460,7 +460,7 @@ enum RevisedMaterials with Material {
   zeolite(),
   concrete.rough(),
   magnetic_steel.magnetic(),
-  vanadium_steel.metallic(),
+  vanadium_steel.shiny(),
   potin.metallic(),
   borosilicate_glass.shiny(),
   andesite.rough(),

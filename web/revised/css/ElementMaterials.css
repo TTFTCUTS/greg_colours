@@ -701,7 +701,10 @@
 }
 
 .revised .vanadium .layer0 {
-    background-color: #323232;
+    background-color: #696d76;
+}
+.revised .vanadium .layer1 {
+    background-color: #240808;
 }
 
 .revised .xenon .layer0 {
@@ -713,15 +716,24 @@
 }
 
 .revised .yttrium .layer0 {
-    background-color: #76524C;
+    background-color: #7d8072;
+}
+.revised .yttrium .layer1 {
+    background-color: #15161a;
 }
 
 .revised .zinc .layer0 {
     background-color: #EBEBFA;
 }
+.revised .zinc .layer1 {
+    background-color: #232c30;
+}
 
 .revised .zirconium .layer0 {
-    background-color: #C8FFFF;
+    background-color: #fff0e2;
+}
+.revised .zirconium .layer1 {
+    background-color: #271813;
 }
 
 .revised .naquadah .layer0 {
