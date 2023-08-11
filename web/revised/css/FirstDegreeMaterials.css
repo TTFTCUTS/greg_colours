@@ -10,7 +10,10 @@
 }
 
 .revised .annealed_copper .layer0 {
-    background-color: #FF8D3B;
+    background-color: #e79a56;
+}
+.revised .annealed_copper .layer1 {
+    background-color: #e45d3e;
 }
 
 .revised .asbestos .layer0 {
