@@ -29,7 +29,7 @@ enum RevisedMaterials with Material {
   chromium.shiny(),
   cobalt.metallic(),
   copernicum(),
-  copper.shiny(),
+  copper.bright(),
   curium.radioactive(),
   darmstadtium(),
   deuterium.gas(),

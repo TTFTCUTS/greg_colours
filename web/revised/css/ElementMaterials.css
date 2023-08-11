@@ -147,7 +147,10 @@
 }
 
 .revised .copper .layer0 {
-    background-color: #FF6400;
+    background-color: #e77c56;
+}
+.revised .copper .layer1 {
+    background-color: #c84d1f;
 }
 
 .revised .curium .layer0 {
