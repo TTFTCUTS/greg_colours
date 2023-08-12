@@ -2,7 +2,7 @@ import "utils.dart";
 
 enum ItemSet with EnumName {
   // icons to process for each icon set
-  bright(<String>["ingot"]),
+  bright(<String>["foil","gear","gear_small","ingot","plate","rotor","screw","spring","spring_small","turbine_blade","wire_fine"]),
   certus(<String>["gem"]),
   diamond(<String>["gem", "raw_ore"]),
   dull(allItems),
@@ -24,7 +24,7 @@ enum ItemSet with EnumName {
   ruby(<String>["gem"]),
   sand(<String>["crushed","crushed_refined","dust","dust_impure","dust_pure","dust_small","dust_tiny"]),
   shiny(<String>["bolt","dust","dust_small","dust_tiny","foil","gear","gear_small","ingot","ingot_double","nugget","plate","plate_dense","plate_double","raw_ore",
-    "ring","rod","rod_long","round","screw"]),
+    "ring","rod","rod_long","rotor","round","screw","spring","spring_small","tool_head_buzz_saw","tool_head_chainsaw","turbine_blade","tool_head_drill","tool_head_screwdriver","tool_head_wrench","wire_fine"]),
   wood(<String>["gear","plate","plate_double","rod","rod_long","screw"]),
   radioactive(allItems);
 

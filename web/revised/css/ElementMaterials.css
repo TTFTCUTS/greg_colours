@@ -526,6 +526,9 @@
 }
 
 .revised .rhodium .layer0 {
+    background-color: #f36bba;
+}
+.revised .rhodium .layer1 {
     background-color: #DC0C58;
 }
 
@@ -778,7 +781,10 @@
 }
 
 .revised .duranium .layer0 {
-    background-color: #4BAFAF;
+    background-color: #f3e7a9;
+}
+.revised .duranium .layer1 {
+    background-color: #9c9487;
 }
 
 .revised .trinium .layer0 {
