@@ -1,6 +1,7 @@
 import 'dart:html';
 
 import "package:CommonLib/Utility.dart";
+import "package:LoaderLib/Archive.dart";
 import "package:LoaderLib/Loader.dart";
 
 import "icongenerator.dart";
@@ -36,6 +37,8 @@ Future<void> main() async {
     ItemSet.radioactive: IconGenerator.radioactive,
   };
 
+  final Archive downloadAll = new Archive();
+
   for (final ItemSet itemSet in iconsToGenerate.keys) {
     if (itemSet.items.isEmpty) { continue; }
     final GeneratedIconSet iconSet = new GeneratedIconSet(iconsToGenerate[itemSet]!);
@@ -63,6 +66,10 @@ Future<void> main() async {
 
     print("Generated secondary textures for ${itemSet.name}");
     Loader.mountDataPack(iconSet.archive);
+
+    for (final dynamic file in iconSet.archive.files) {
+      downloadAll.rawArchive.addFile(file);
+    }
   }
 
   print("Start Page Generation");
@@ -152,6 +159,8 @@ Future<void> main() async {
   for (final Element e in materialElements.values) {
     mainElement.append(e);
   }
+
+  topBarElement.append(Loader.saveButton(Formats.zip, () async => downloadAll, caption: "Download Generated Icons", filename: () => "generated"));
 
   displayMaterialSet(setSelector.value);
   print("Done");
