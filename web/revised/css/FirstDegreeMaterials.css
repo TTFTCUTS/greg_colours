@@ -336,7 +336,10 @@
 }
 
 .revised .powellite .layer0 {
-    background-color: #FFFF00;
+    background-color: #d8cfac;
+}
+.revised .powellite .layer1 {
+    background-color: #bc7a2c;
 }
 
 .revised .pyrite .layer0 {
@@ -347,7 +350,10 @@
 }
 
 .revised .pyrolusite .layer0 {
-    background-color: #9696AA;
+    background-color: #c7b5ab;
+}
+.revised .pyrolusite .layer1 {
+    background-color: #595756;
 }
 
 .revised .pyrope .layer0 {
@@ -608,7 +614,10 @@
 }
 
 .revised .potash .layer0 {
-    background-color: #784137;
+    background-color: #ffa772;
+}
+.revised .potash .layer1 {
+    background-color: #922f1b;
 }
 
 .revised .soda_ash .layer0 {
@@ -700,7 +709,10 @@
 }
 
 .revised .potassium_dichromate .layer0 {
-    background-color: #FF084E;
+    background-color: #ff6000;
+}
+.revised .potassium_dichromate .layer1 {
+    background-color: #FF0000;
 }
 
 .revised .chromium_trioxide .layer0 {
@@ -1136,4 +1148,11 @@
 
 .revised .liquid_helium .layer0 {
     background-color: #FCFF90;
+}
+
+.revised .quicklime .layer0 {
+    background-color: #ecfff3;
+}
+.revised .quicklime .layer1 {
+    background-color: #7d8e83;
 }

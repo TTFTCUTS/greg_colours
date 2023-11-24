@@ -44,9 +44,15 @@
 .revised .polyvinyl_chloride .layer0 {
     background-color: #D7E6E6;
 }
+.revised .polyvinyl_chloride .layer1 {
+    background-color: #6ca5bf;
+}
 
 .revised .polyphenylene_sulfide .layer0 {
-    background-color: #AA8800;
+    background-color: #30302e;
+}
+.revised .polyphenylene_sulfide .layer1 {
+    background-color: #071d26;
 }
 
 .revised .polybenzimidazole .layer0 {
@@ -74,7 +80,10 @@
 }
 
 .revised .polytetrafluoroethylene .layer0 {
-    background-color: #646464;
+    background-color: #FFFFFF;
+}
+.revised .polytetrafluoroethylene .layer1 {
+    background-color: #919187;
 }
 
 .revised .sugar .layer0 {
@@ -309,5 +318,8 @@
 }
 
 .revised .polyvinyl_butyral .layer0 {
-    background-color: #347D41;
+    background-color: #c1d0d7;
+}
+.revised .polyvinyl_butyral .layer1 {
+    background-color: #929d73;
 }
