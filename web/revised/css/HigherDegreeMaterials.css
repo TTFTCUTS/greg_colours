@@ -6,11 +6,19 @@
 }
 
 .revised .ender_eye .layer0 {
-    background-color: #66FF66;
+    background-color: #b5e45a;
+}
+
+.revised .ender_eye .layer1 {
+    background-color: #001430;
 }
 
 .revised .diatomite .layer0 {
-    background-color: #E1E1E1;
+    background-color: #fffafa;
+}
+
+.revised .diatomite .layer1 {
+    background-color: #fffafa;
 }
 
 .revised .red_steel .layer0 {

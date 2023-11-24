@@ -19,7 +19,7 @@
 .revised .asbestos .layer0 {
     background-color: #E6E6E6;
 }
-.revised .asbestos .layer0 {
+.revised .asbestos .layer1 {
     background-color: #dbd7bf;
 }
 
@@ -31,7 +31,11 @@
 }
 
 .revised .hematite .layer0 {
-    background-color: #915A5A;
+    background-color: #ff7161;
+}
+
+.revised .hematite .layer1 {
+    background-color: #330817;
 }
 
 .revised .battery_alloy .layer0 {
@@ -46,7 +50,11 @@
 }
 
 .revised .bone .layer0 {
-    background-color: #FAFAFA;
+    background-color: #fcfbed;
+}
+
+.revised .bone .layer1 {
+    background-color: #a0a38b;
 }
 
 .revised .brass .layer0 {
@@ -71,7 +79,10 @@
 }
 
 .revised .calcite .layer0 {
-    background-color: #FAE6DC;
+    background-color: #fffef8;
+}
+.revised .calcite .layer1 {
+    background-color: #bbaf62;
 }
 
 .revised .cassiterite .layer0 {
@@ -86,7 +97,10 @@
 }
 
 .revised .chalcopyrite .layer0 {
-    background-color: #A07828;
+    background-color: #96c185;
+}
+.revised .chalcopyrite .layer0 {
+    background-color: #e3af1a;
 }
 
 .revised .charcoal .layer0 {
@@ -141,7 +155,11 @@
 }
 
 .revised .dark_ash .layer0 {
-    background-color: #323232;
+    background-color: #8b8989;
+}
+
+.revised .dark_ash .layer1 {
+    background-color: #555353;
 }
 
 .revised .diamond .layer0 {
@@ -160,7 +178,11 @@
 }
 
 .revised .galena .layer0 {
-    background-color: #643C64;
+    background-color: #f3e8fa;
+}
+
+.revised .galena .layer1 {
+    background-color: #331d42;
 }
 
 .revised .garnierite .layer0 {
@@ -197,7 +219,11 @@
 }
 
 .revised .bauxite .layer0 {
-    background-color: #C86400;
+    background-color: #cfb853;
+}
+
+.revised .bauxite .layer1 {
+    background-color: #e6220c;
 }
 
 .revised .invar .layer0 {
@@ -523,7 +549,11 @@
 }
 
 .revised .graphite .layer0 {
-    background-color: #808080;
+    background-color: #a8a89e;
+}
+
+.revised .graphite .layer1 {
+    background-color: #172602;
 }
 
 .revised .graphene .layer0 {
@@ -571,6 +601,9 @@
 }
 
 .revised .gallium_arsenide .layer0 {
+    background-color: #e6ebff;
+}
+.revised .gallium_arsenide .layer1 {
     background-color: #A0A0A0;
 }
 
@@ -586,7 +619,11 @@
 }
 
 .revised .indium_gallium_phosphide .layer0 {
-    background-color: #A08CBE;
+    background-color: #f3e5f9;
+}
+
+.revised .indium_gallium_phosphide .layer1 {
+    background-color: #67596c;
 }
 
 .revised .nickel_zinc_ferrite .layer0 {
@@ -600,7 +637,19 @@
     background-color: #C8C8C8;
 }
 
+.revised .magnalium .layer0 {
+    background-color: #adc5e8;
+}
+
+.revised .magnalium .layer1 {
+    background-color: #522a77;
+}
+
 .revised .magnesium_chloride .layer0 {
+    background-color: #eee4e9;
+}
+
+.revised .magnesium_chloride .layer1 {
     background-color: #D40D5C;
 }
 
@@ -630,7 +679,10 @@
 }
 
 .revised .magnesia .layer0 {
-    background-color: #887878;
+    background-color: #998282;
+}
+.revised .magnesia .layer1 {
+    background-color: #594d19;
 }
 
 .revised .platinum_group_sludge .layer0 {
@@ -658,7 +710,7 @@
 .revised .antimony_trioxide .layer0 {
     background-color: #f5f5ff;
 }
-.revised .antimony_trioxide .layer0 {
+.revised .antimony_trioxide .layer1 {
     background-color: #c4c4d6;
 }
 
@@ -670,11 +722,19 @@
 }
 
 .revised .cupric_oxide .layer0 {
-    background-color: #0F0F0F;
+    background-color: #8df7cf;
+}
+
+.revised .cupric_oxide .layer1 {
+    background-color: #57696e;
 }
 
 .revised .cobalt_oxide .layer0 {
-    background-color: #788000;
+    background-color: #3cb099;
+}
+
+.revised .cobalt_oxide .layer1 {
+    background-color: #3b5c66;
 }
 
 .revised .arsenic_trioxide .layer0 {
@@ -685,7 +745,11 @@
 }
 
 .revised .ferrosilite .layer0 {
-    background-color: #97632A;
+    background-color: #968c80;
+}
+
+.revised .ferrosilite .layer1 {
+    background-color: #97732a;
 }
 
 .revised .metal_mixture .layer0 {
@@ -746,7 +810,11 @@
 }
 
 .revised .barite .layer0 {
-    background-color: #E6EBEB;
+    background-color: #e8e2d1;
+}
+
+.revised .barite .layer1 {
+    background-color: #f4b74b;
 }
 
 .revised .alunite .layer0 {
@@ -861,7 +929,11 @@
 }
 
 .revised .ender_pearl .layer0 {
-    background-color: #6CDCC8;
+    background-color: #8cf4e2;
+}
+
+.revised .ender_pearl .layer1 {
+    background-color: #032620;
 }
 
 .revised .potassium_feldspar .layer0 {

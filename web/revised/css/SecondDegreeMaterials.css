@@ -154,7 +154,11 @@
 }
 
 .revised .gypsum .layer0 {
-    background-color: #E6E6FA;
+    background-color: #fffaec;
+}
+
+.revised .gypsum .layer1 {
+    background-color: #71570a;
 }
 
 .revised .zeolite .layer0 {

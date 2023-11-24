@@ -78,7 +78,11 @@
 }
 
 .revised .boron .layer0 {
-    background-color: #D2FAD2;
+    background-color: #d7f7d7;
+}
+
+.revised .boron .layer1 {
+    background-color: #5f6152;
 }
 
 .revised .bromine .layer0 {
@@ -107,8 +111,13 @@
 }
 
 .revised .carbon .layer0 {
-    background-color: #141414;
+    background-color: #333030;
 }
+
+.revised .carbon .layer1 {
+    background-color: #221c1c;
+}
+
 
 .revised .cadmium .layer0 {
     background-color: #636377;
@@ -258,7 +267,10 @@
 }
 
 .revised .hassium .layer0 {
-    background-color: #DDDDDD;
+    background-color: #78766f;
+}
+.revised .hassium .layer1 {
+    background-color: #09ebaf;
 }
 
 .revised .holmium .layer0 {
@@ -327,10 +339,18 @@
 }
 
 .revised .lead .layer0 {
-    background-color: #8C648C;
+    background-color: #7e6f82;
+}
+
+.revised .lead .layer1 {
+    background-color: #290633;
 }
 
 .revised .lithium .layer0 {
+    background-color: #d7e7ee;
+}
+
+.revised .lithium .layer1 {
     background-color: #BDC7DB;
 }
 
