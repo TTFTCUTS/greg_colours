@@ -320,7 +320,11 @@
 }
 
 .revised .endstone .layer0 {
-    background-color: #D9DE9E;
+    background-color: #f6fabd;
+}
+
+.revised .endstone .layer1 {
+    background-color: #c5be8b;
 }
 
 .revised .netherrack .layer0 {
