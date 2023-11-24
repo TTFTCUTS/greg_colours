@@ -35,7 +35,10 @@
 }
 
 .revised .battery_alloy .layer0 {
-    background-color: #9C7CA0;
+    background-color: #cac0ff;
+}
+.revised .battery_alloy .layer1 {
+    background-color: #5b0020;
 }
 
 .revised .blue_topaz .layer0 {
@@ -362,7 +365,10 @@
 }
 
 .revised .scheelite .layer0 {
-    background-color: #C88C14;
+    background-color: #d7e8b3;
+}
+.revised .scheelite .layer1 {
+    background-color: #143cae;
 }
 
 .revised .sodalite .layer0 {
@@ -388,7 +394,10 @@
 }
 
 .revised .soldering_alloy .layer0 {
-    background-color: #9696A0;
+    background-color: #9d9da1;
+}
+.revised .soldering_alloy .layer1 {
+    background-color: #8181a1;
 }
 
 .revised .spessartine .layer0 {
@@ -396,7 +405,10 @@
 }
 
 .revised .sphalerite .layer0 {
-    background-color: #FFFFFF;
+    background-color: #ffdc88;
+}
+.revised .sphalerite .layer1 {
+    background-color: #0f1605;
 }
 
 .revised .stainless_steel .layer0 {
@@ -421,7 +433,10 @@
 }
 
 .revised .tetrahedrite .layer0 {
-    background-color: #C82000;
+    background-color: #a3a09b;
+}
+.revised .tetrahedrite .layer1 {
+    background-color: #143313;
 }
 
 .revised .tin_alloy .layer0 {
@@ -436,7 +451,10 @@
 }
 
 .revised .tungstate .layer0 {
-    background-color: #373223;
+    background-color: #e0ffc4;
+}
+.revised .tungstate .layer1 {
+    background-color: #ab4400;
 }
 
 .revised .ultimet .layer0 {
@@ -472,7 +490,10 @@
 }
 
 .revised .wulfenite .layer0 {
-    background-color: #FF8000;
+    background-color: #ff9000;
+}
+.revised .wulfenite .layer1 {
+    background-color: #FF0000;
 }
 
 .revised .yellow_limonite .layer0 {
@@ -558,6 +579,9 @@
 }
 
 .revised .soda_ash .layer0 {
+    background-color: #ffffff;
+}
+.revised .soda_ash .layer1 {
     background-color: #DCDCFF;
 }
 
@@ -581,7 +605,10 @@
 }
 
 .revised .sodium_sulfide .layer0 {
-    background-color: #FFE680;
+    background-color: #ffd83d;
+}
+.revised .sodium_sulfide .layer1 {
+    background-color: #c54a00;
 }
 
 .revised .phosphorus_pentoxide .layer0 {
@@ -589,7 +616,10 @@
 }
 
 .revised .sodium_bisulfate .layer0 {
-    background-color: #004455;
+    background-color: #feffed;
+}
+.revised .sodium_bisulfate .layer1 {
+    background-color: #f1f0a3;
 }
 
 .revised .ferrite_mixture .layer0 {
@@ -633,7 +663,10 @@
 }
 
 .revised .zincite .layer0 {
-    background-color: #FFFFF5;
+    background-color: #ff9f49;
+}
+.revised .zincite .layer1 {
+    background-color: #ff0000;
 }
 
 .revised .cupric_oxide .layer0 {
@@ -663,7 +696,10 @@
 }
 
 .revised .sodium_hydroxide .layer0 {
-    background-color: #003380;
+    background-color: #f5feff;
+}
+.revised .sodium_hydroxide .layer1 {
+    background-color: #a4ebf1;
 }
 
 .revised .sodium_persulfate .layer0 {
@@ -681,7 +717,10 @@
 }
 
 .revised .spodumene .layer0 {
-    background-color: #BEAAAA;
+    background-color: #ffbcbc;
+}
+.revised .spodumene .layer1 {
+    background-color: #c490ff;
 }
 
 .revised .lepidolite .layer0 {
@@ -726,7 +765,10 @@
 }
 
 .revised .soapstone .layer0 {
-    background-color: #5F915F;
+    background-color: #5a7261;
+}
+.revised .soapstone .layer1 {
+    background-color: #464c4b;
 }
 
 .revised .kyanite .layer0 {
@@ -894,7 +936,10 @@
 }
 
 .revised .uranium_rhodium_dinaquadide .layer0 {
-    background-color: #0A0A0A;
+    background-color: #232020;
+}
+.revised .uranium_rhodium_dinaquadide .layer1 {
+    background-color: #ff009c;
 }
 
 .revised .enriched_naquadah_trinium_europium_duranide .layer0 {
@@ -916,7 +961,10 @@
 }
 
 .revised .ruthenium_tetroxide .layer0 {
-    background-color: #C7C7C7;
+    background-color: #beb809;
+}
+.revised .ruthenium_tetroxide .layer1 {
+    background-color: #4e4e4d;
 }
 
 .revised .osmium_tetroxide .layer0 {
@@ -973,7 +1021,10 @@
 }
 
 .revised .zinc_sulfide .layer0 {
-    background-color: #FFFFF6;
+    background-color: #fff4d5;
+}
+.revised .zinc_sulfide .layer1 {
+    background-color: #dadada;
 }
 
 .revised .gallium_sulfide .layer0 {

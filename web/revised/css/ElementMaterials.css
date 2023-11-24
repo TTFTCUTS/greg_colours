@@ -617,7 +617,10 @@
 }
 
 .revised .sulfur .layer0 {
-    background-color: #C8C800;
+    background-color: #fdff31;
+}
+.revised .sulfur .layer1 {
+    background-color: #ffb400;
 }
 
 .revised .tantalum .layer0 {
@@ -674,7 +677,10 @@
 }
 
 .revised .tin .layer0 {
-    background-color: #DCDCDC;
+    background-color: #fafeff;
+}
+.revised .tin .layer1 {
+    background-color: #4e676c;
 }
 
 .revised .titanium .layer0 {

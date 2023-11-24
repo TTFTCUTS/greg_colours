@@ -158,7 +158,10 @@
 }
 
 .revised .zeolite .layer0 {
-    background-color: #F0E6E6;
+    background-color: #f2e3e0;
+}
+.revised .zeolite .layer1 {
+    background-color: #eabeb4;
 }
 
 .revised .concrete .layer0 {

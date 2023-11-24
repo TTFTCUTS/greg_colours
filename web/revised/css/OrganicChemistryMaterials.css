@@ -1,7 +1,7 @@
 .revised .silicone_rubber .layer0 {
     background-color: #F0F0F0;
 }
-.revised .silicone_rubber .layer0 {
+.revised .silicone_rubber .layer1 {
     background-color: #E8E8E0;
 }
 
@@ -35,7 +35,10 @@
 }
 
 .revised .reinforced_epoxy_resin .layer0 {
-    background-color: #A07A10;
+    background-color: #9ecaad;
+}
+.revised .reinforced_epoxy_resin .layer1 {
+    background-color: #b1b2a1;
 }
 
 .revised .polyvinyl_chloride .layer0 {
