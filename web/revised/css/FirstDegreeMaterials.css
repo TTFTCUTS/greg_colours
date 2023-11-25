@@ -49,13 +49,15 @@
 }
 
 .revised .blue_topaz .layer0 {
-    background-color: #7B96DC;
+    background-color: #dbfeff;
+}
+.revised .blue_topaz .layer1 {
+    background-color: #a0c4d7;
 }
 
 .revised .bone .layer0 {
     background-color: #fcfbed;
 }
-
 .revised .bone .layer1 {
     background-color: #a0a38b;
 }
@@ -121,7 +123,10 @@
 }
 
 .revised .cinnabar .layer0 {
-    background-color: #960000;
+    background-color: #ff335f;
+}
+.revised .cinnabar .layer1 {
+    background-color: #3f0110;
 }
 
 .revised .water .layer0 {
@@ -133,7 +138,10 @@
 }
 
 .revised .coal .layer0 {
-    background-color: #464646;
+    background-color: #393e41;
+}
+.revised .coal .layer1 {
+    background-color: #101015;
 }
 
 .revised .cobaltite .layer0 {
@@ -177,7 +185,10 @@
 }
 
 .revised .emerald .layer0 {
-    background-color: #50FF50;
+    background-color: #17ff6c;
+}
+.revised .emerald .layer1 {
+    background-color: #003f00;
 }
 
 .revised .galena .layer0 {
@@ -196,6 +207,9 @@
 }
 
 .revised .green_sapphire .layer0 {
+    background-color: #9ae6b0;
+}
+.revised .green_sapphire .layer1 {
     background-color: #64C882;
 }
 
@@ -221,13 +235,22 @@
 }
 
 .revised .rutile .layer0 {
-    background-color: #D40D5C;
+    background-color: #892506;
+}
+.revised .rutile .layer1 {
+    background-color: #330101;
+}
+
+.revised .realgar .layer0 {
+    background-color: #ff3d33;
+}
+.revised .realgar .layer1 {
+    background-color: #3f0110;
 }
 
 .revised .bauxite .layer0 {
     background-color: #cfb853;
 }
-
 .revised .bauxite .layer1 {
     background-color: #e6220c;
 }
@@ -419,7 +442,10 @@
 }
 
 .revised .sapphire .layer0 {
-    background-color: #6464C8;
+    background-color: #3235e3;
+}
+.revised .sapphire .layer1 {
+    background-color: #211455;
 }
 
 .revised .scheelite .layer0 {
@@ -451,7 +477,10 @@
 }
 
 .revised .coke .layer0 {
-    background-color: #666666;
+    background-color: #575e5b;
+}
+.revised .coke .layer1 {
+    background-color: #1f1f29;
 }
 
 .revised .soldering_alloy .layer0 {
@@ -511,7 +540,10 @@
 }
 
 .revised .topaz .layer0 {
-    background-color: #FF8000;
+    background-color: #e8d73a;
+}
+.revised .topaz .layer1 {
+    background-color: #f4680f;
 }
 
 .revised .tungstate .layer0 {
@@ -647,7 +679,10 @@
 }
 
 .revised .chalcocite .layer0 {
-    background-color: #353535;
+    background-color: #657882;
+}
+.revised .chalcocite .layer1 {
+    background-color: #33302e;
 }
 
 .revised .gallium_arsenide .layer0 {
@@ -916,7 +951,10 @@
 }
 
 .revised .kyanite .layer0 {
-    background-color: #6E6EFA;
+    background-color: #d5ffff;
+}
+.revised .kyanite .layer1 {
+    background-color: #5a69d6;
 }
 
 .revised .magnetic_iron .layer0 {
