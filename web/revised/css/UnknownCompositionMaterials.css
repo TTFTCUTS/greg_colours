@@ -288,7 +288,10 @@
 }
 
 .revised .oilsands .layer0 {
-    background-color: #0A0A0A;
+    background-color: #e3c78a;
+}
+.revised .oilsands .layer1 {
+    background-color: #161e22;
 }
 
 .revised .rare_earth .layer0 {
@@ -385,7 +388,10 @@
 }
 
 .revised .meat .layer0 {
-    background-color: #C14C4C;
+    background-color: #e85048;
+}
+.revised .meat .layer1 {
+    background-color: #470a06;
 }
 
 .revised .wood .layer0 {
