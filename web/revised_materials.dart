@@ -310,7 +310,7 @@ enum RevisedMaterials with Material {
   indium_tin_barium_titanium_cuprate.metallic(),
   uranium_rhodium_dinaquadide.radioactive(),
   enriched_naquadah_trinium_europium_duranide.metallic(),
-  ruthenium_trinium_americium_neutronate.bright(),
+  ruthenium_trinium_americium_neutronate.radioactive(),
   inert_metal_mixture.metallic(),
   rhodium_sulfate.fluid(),
   ruthenium_tetroxide(),

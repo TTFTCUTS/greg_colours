@@ -98,7 +98,10 @@
 }
 
 .revised .cassiterite_sand .layer0 {
-    background-color: #DCDCDC;
+    background-color: #89847e;
+}
+.revised .cassiterite_sand .layer1 {
+    background-color: #3b3b35;
 }
 
 .revised .chalcopyrite .layer0 {
@@ -903,7 +906,10 @@
 }
 
 .revised .glauconite_sand .layer0 {
-    background-color: #82B43C;
+    background-color: #1da351;
+}
+.revised .glauconite_sand .layer1 {
+    background-color: #1a6e8f;
 }
 
 .revised .malachite .layer0 {
@@ -958,7 +964,10 @@
 }
 
 .revised .magnetic_iron .layer0 {
-    background-color: #C8C8C8;
+    background-color: #eeeeee;
+}
+.revised .magnetic_iron .layer1 {
+    background-color: #979797;
 }
 
 .revised .tungsten_carbide .layer0 {
@@ -1058,7 +1067,10 @@
 }
 
 .revised .magnetic_neodymium .layer0 {
-    background-color: #646464;
+    background-color: #9a8b94;
+}
+.revised .magnetic_neodymium .layer1 {
+    background-color: #2c2c2c;
 }
 
 .revised .hydrochloric_acid .layer0 {
@@ -1076,7 +1088,10 @@
 }
 
 .revised .magnetic_samarium .layer0 {
-    background-color: #FFFFCD;
+    background-color: #c5c5b3;
+}
+.revised .magnetic_samarium .layer1 {
+    background-color: #183e3f;
 }
 
 .revised .manganese_phosphide .layer0 {

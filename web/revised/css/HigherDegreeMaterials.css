@@ -42,8 +42,25 @@
     background-color: #1b2632;
 }
 
+.revised .granite .layer0 {
+    background-color: #d69077;
+}
+.revised .granite .layer1 {
+    background-color: #71352c;
+}
+
+.revised .ruthenium_trinium_americium_neutronate .layer0 {
+    background-color: #d69077;
+}
+.revised .ruthenium_trinium_americium_neutronate .layer1 {
+    background-color: #71352c;
+}
+
 .revised .granitic_mineral_sand .layer0 {
-    background-color: #283C3C;
+    background-color: #d69077;
+}
+.revised .granitic_mineral_sand .layer1 {
+    background-color: #71352c;
 }
 
 .revised .redrock .layer0 {
@@ -54,7 +71,10 @@
 }
 
 .revised .garnet_sand .layer0 {
-    background-color: #C86400;
+    background-color: #cc4c25;
+}
+.revised .garnet_sand .layer1 {
+    background-color: #510b04;
 }
 
 .revised .hssg .layer0 {
@@ -72,6 +92,9 @@
 }
 
 .revised .basaltic_mineral_sand .layer0 {
+    background-color: #5c5c5c;
+}
+.revised .basaltic_mineral_sand .layer1 {
     background-color: #283228;
 }
 
@@ -94,13 +117,6 @@
 }
 .revised .iridium_metal_residue .layer1 {
     background-color: #462941;
-}
-
-.revised .granite .layer0 {
-    background-color: #d69077;
-}
-.revised .granite .layer1 {
-    background-color: #71352c;
 }
 
 .revised .brick .layer0 {

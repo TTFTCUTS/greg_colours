@@ -31,7 +31,10 @@
 }
 
 .revised .opal .layer0 {
-    background-color: #0000FF;
+    background-color: #f9e3ea;
+}
+.revised .opal .layer1 {
+    background-color: #16bbe0;
 }
 
 .revised .amethyst .layer0 {
@@ -137,7 +140,10 @@
 }
 
 .revised .quartz_sand .layer0 {
-    background-color: #C8C8C8;
+    background-color: #f8efe3;
+}
+.revised .quartz_sand .layer1 {
+    background-color: #e6c1bb;
 }
 
 .revised .pollucite .layer0 {
