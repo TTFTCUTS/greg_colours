@@ -6,7 +6,10 @@
 }
 
 .revised .perlite .layer0 {
-    background-color: #1E141E;
+    background-color: #eee0e0;
+}
+.revised .perlite .layer1 {
+    background-color: #c1b9a9;
 }
 
 .revised .borax .layer0 {
@@ -143,7 +146,11 @@
 }
 
 .revised .mirabilite .layer0 {
-    background-color: #F0FAD2;
+    background-color: #f9e7e7;
+}
+
+.revised .mirabilite .layer1 {
+    background-color: #b57a7a;
 }
 
 .revised .trona .layer0 {

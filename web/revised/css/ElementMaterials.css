@@ -380,6 +380,10 @@
 }
 
 .revised .manganese .layer0 {
+    background-color: #EEEEEE;
+}
+
+.revised .manganese .layer1 {
     background-color: #CDE1B9;
 }
 
@@ -477,7 +481,10 @@
 }
 
 .revised .phosphorus .layer0 {
-    background-color: #FFFF00;
+    background-color: #77332c;
+}
+.revised .phosphorus .layer1 {
+    background-color: #220202;
 }
 
 .revised .polonium .layer0 {
@@ -796,7 +803,11 @@
 }
 
 .revised .neutronium .layer0 {
-    background-color: #FAFAFA;
+    background-color: #000000;
+}
+
+.revised .neutronium .layer1 {
+    background-color: #FFFFFF;
 }
 
 .revised .tritanium .layer0 {

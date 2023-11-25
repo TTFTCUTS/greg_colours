@@ -273,11 +273,19 @@
 }
 
 .revised .niobium_nitride .layer0 {
-    background-color: #1D291D;
+    background-color: #949599;
+}
+
+.revised .niobium_nitride .layer1 {
+    background-color: #262528;
 }
 
 .revised .niobium_titanium .layer0 {
-    background-color: #1D1D29;
+    background-color: #d2d9f9;
+}
+
+.revised .niobium_titanium .layer1 {
+    background-color: #262528;
 }
 
 .revised .obsidian .layer0 {
@@ -288,7 +296,10 @@
 }
 
 .revised .phosphate .layer0 {
-    background-color: #FFFF00;
+    background-color: #e8dabd;
+}
+.revised .phosphate .layer1 {
+    background-color: #a48b56;
 }
 
 .revised .platinum_raw .layer0 {
@@ -670,7 +681,10 @@
 }
 
 .revised .phosphorus_pentoxide .layer0 {
-    background-color: #DCDC00;
+    background-color: #e89188;
+}
+.revised .phosphorus_pentoxide .layer1 {
+    background-color: #220202;
 }
 
 .revised .sodium_bisulfate .layer0 {
@@ -756,6 +770,10 @@
     background-color: #FFDD55;
 }
 
+.revised .massicot .layer1 {
+    background-color: #000000;
+}
+
 .revised .ferrosilite .layer0 {
     background-color: #968c80;
 }
@@ -789,7 +807,10 @@
 }
 
 .revised .pentlandite .layer0 {
-    background-color: #A59605;
+    background-color: #e3cf13;
+}
+.revised .pentlandite .layer1 {
+    background-color: #29315b;
 }
 
 .revised .spodumene .layer0 {
