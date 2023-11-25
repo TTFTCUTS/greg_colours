@@ -328,7 +328,10 @@
 }
 
 .revised .netherrack .layer0 {
-    background-color: #C80000;
+    background-color: #7c4249;
+}
+.revised .netherrack .layer1 {
+    background-color: #400b0b;
 }
 
 .revised .cetane_boosted_diesel .layer0 {

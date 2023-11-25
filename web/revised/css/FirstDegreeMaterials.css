@@ -6,7 +6,10 @@
 }
 
 .revised .andradite .layer0 {
-    background-color: #967800;
+    background-color: #ffce26;
+}
+.revised .andradite .layer1 {
+    background-color: #647d59;
 }
 
 .revised .annealed_copper .layer0 {
@@ -197,7 +200,10 @@
 }
 
 .revised .grossular .layer0 {
-    background-color: #C86400;
+    background-color: #ffb777;
+}
+.revised .grossular .layer1 {
+    background-color: #856f48;
 }
 
 .revised .ice .layer0 {

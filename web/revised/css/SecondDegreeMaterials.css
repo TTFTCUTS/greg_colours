@@ -24,7 +24,10 @@
 }
 
 .revised .olivine .layer0 {
-    background-color: #96FF96;
+    background-color: #a7e404;
+}
+.revised .olivine .layer1 {
+    background-color: #166439;
 }
 
 .revised .opal .layer0 {
@@ -32,7 +35,10 @@
 }
 
 .revised .amethyst .layer0 {
-    background-color: #8464BC;
+    background-color: #d9a0f3;
+}
+.revised .amethyst .layer1 {
+    background-color: #54398a;
 }
 
 .revised .lapis .layer0 {
