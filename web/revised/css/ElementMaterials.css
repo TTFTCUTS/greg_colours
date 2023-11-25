@@ -152,7 +152,10 @@
 }
 
 .revised .copernicium .layer0 {
-    background-color: #FFFEFF;
+    background-color: #565c5d;
+}
+.revised .copernicium .layer1 {
+    background-color: #ffd34b;
 }
 
 .revised .copper .layer0 {
@@ -462,6 +465,13 @@
     background-color: #43deff;
 }
 
+.revised .oganesson .layer0 {
+    background-color: #443936;
+}
+.revised .oganesson .layer1 {
+    background-color: #ff1dbd;
+}
+
 .revised .osmium .layer0 {
     background-color: #f9f9f9;
 }
@@ -530,7 +540,10 @@
 }
 
 .revised .promethium .layer0 {
-
+    background-color: #786160;
+}
+.revised .promethium .layer1 {
+    background-color: #e7ffb8;
 }
 
 .revised .protactinium .layer0 {
@@ -668,7 +681,10 @@
 }
 
 .revised .tellurium .layer0 {
-
+    background-color: #d9e8d2;
+}
+.revised .tellurium .layer1 {
+    background-color: #0018ff;
 }
 
 .revised .tennessine .layer0 {

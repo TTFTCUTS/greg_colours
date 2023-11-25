@@ -28,7 +28,7 @@ enum OriginalMaterials with Material {
   chlorine(),
   chromium.shiny(),
   cobalt.metallic(),
-  copernicum(),
+  copernicium(),
   copper.shiny(),
   curium.metallic(),
   darmstadtium(),

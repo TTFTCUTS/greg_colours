@@ -28,7 +28,7 @@ enum RevisedMaterials with Material {
   chlorine.gas(),
   chromium.shiny(),
   cobalt.metallic(),
-  copernicum.radioactive(),
+  copernicium.radioactive(),
   copper.bright(),
   curium.radioactive(),
   darmstadtium.radioactive(),
