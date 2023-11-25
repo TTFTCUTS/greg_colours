@@ -1,8 +1,8 @@
 .revised .glass .layer0 {
-    background-color: #FAFAFA;
+    background-color: #ffffff;
 }
 .revised .glass .layer1 {
-    background-color: #FAFAFA;
+    background-color: #ffffff;
 }
 
 .revised .perlite .layer0 {
@@ -88,6 +88,9 @@
 }
 
 .revised .tricalcium_phosphate .layer0 {
+    background-color: #fffddb;
+}
+.revised .tricalcium_phosphate .layer1 {
     background-color: #FFFF00;
 }
 
@@ -267,7 +270,10 @@
 }
 
 .revised .flint .layer0 {
-    background-color: #002040;
+    background-color: #c7c7c7;
+}
+.revised .flint .layer1 {
+    background-color: #212121;
 }
 
 .revised .air .layer0 {
