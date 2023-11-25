@@ -117,7 +117,10 @@
 }
 
 .revised .pollucite .layer0 {
-    background-color: #F0D2D2;
+    background-color: #eed9e1;
+}
+.revised .pollucite .layer1 {
+    background-color: #72a6a7;
 }
 
 .revised .bentonite .layer0 {
@@ -135,7 +138,10 @@
 }
 
 .revised .pitchblende .layer0 {
-    background-color: #C8D200;
+    background-color: #ffd647;
+}
+.revised .pitchblende .layer1 {
+    background-color: #0d1e2f;
 }
 
 .revised .monazite .layer0 {
@@ -274,8 +280,12 @@
 }
 
 .revised .platinum_sludge_residue .layer0 {
-    background-color: #827951;
+    background-color: #5e4b40;
 }
+.revised .platinum_sludge_residue .layer1 {
+    background-color: #4b403d;
+}
+
 
 .revised .palladium_raw .layer0 {
     background-color: #5d4e1a;

@@ -56,27 +56,38 @@
 }
 
 .revised .polybenzimidazole .layer0 {
-    background-color: #2D2D2D;
+    background-color: #464441;
+}
+.revised .polybenzimidazole .layer1 {
+    background-color: #382e1b;
 }
 
 .revised .polydimethylsiloxane .layer0 {
     background-color: #F5F5F5;
 }
+.revised .polydimethylsiloxane .layer1 {
+    background-color: #9d9fa1;
+}
 
 .revised .polyethylene .layer0 {
+    background-color: #C8C8C8;
+}
+.revised .polyethylene .layer1 {
     background-color: #C8C8C8;
 }
 
 .revised .epoxy .layer0 {
     background-color: #f6fabd;
 }
-
 .revised .epoxy .layer1 {
     background-color: #C88C14;
 }
 
 .revised .polycaprolactam .layer0 {
-    background-color: #323232;
+    background-color: #f3f2e9;
+}
+.revised .polycaprolactam .layer1 {
+    background-color: #e0e0dc;
 }
 
 .revised .polytetrafluoroethylene .layer0 {

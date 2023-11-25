@@ -441,10 +441,10 @@
 }
 
 .revised .niobium .layer0 {
-    background-color: #e9eacb;
+    background-color: #cbd6ea;
 }
 .revised .niobium .layer1 {
-    background-color: #2f4c35;
+    background-color: #3f5b2a;
 }
 
 .revised .nitrogen .layer0 {
@@ -481,7 +481,10 @@
 }
 
 .revised .polonium .layer0 {
-    background-color: #C9D47E;
+    background-color: #163b27;
+}
+.revised .polonium .layer1 {
+    background-color: #00ff78;
 }
 
 .revised .platinum .layer0 {
