@@ -374,7 +374,10 @@
 }
 
 .revised .pyrope .layer0 {
-    background-color: #783264;
+    background-color: #e81958;
+}
+.revised .pyrope .layer1 {
+    background-color: #811e00;
 }
 
 .revised .rock_salt .layer0 {
