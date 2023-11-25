@@ -35,14 +35,17 @@
 }
 
 .revised .amethyst .layer0 {
-    background-color: #d9a0f3;
+    background-color: #cfa0f3;
 }
 .revised .amethyst .layer1 {
     background-color: #734fbc;
 }
 
 .revised .lapis .layer0 {
-    background-color: #4646DC;
+    background-color: #85a9ff;
+}
+.revised .lapis .layer1 {
+    background-color: #2a7fff;
 }
 
 .revised .blaze .layer0 {
@@ -92,11 +95,17 @@
 }
 
 .revised .red_garnet .layer0 {
-    background-color: #C85050;
+    background-color: #950c15;
+}
+.revised .red_garnet .layer1 {
+    background-color: #510b04;
 }
 
 .revised .yellow_garnet .layer0 {
-    background-color: #C8C850;
+    background-color: #f6ff09;
+}
+.revised .yellow_garnet .layer1 {
+    background-color: #e7a800;
 }
 
 .revised .marble .layer0 {

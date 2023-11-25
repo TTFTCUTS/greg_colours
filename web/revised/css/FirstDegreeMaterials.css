@@ -247,7 +247,10 @@
 }
 
 .revised .lazurite .layer0 {
-    background-color: #C8BEFF;
+    background-color: #2836f1;
+}
+.revised .lazurite .layer1 {
+    background-color: #183ca3;
 }
 
 .revised .magnesite .layer0 {
@@ -395,7 +398,10 @@
 }
 
 .revised .ruby .layer0 {
-    background-color: #FF6464;
+    background-color: #d72310;
+}
+.revised .ruby .layer1 {
+    background-color: #960b6d;
 }
 
 .revised .salt .layer0 {
@@ -424,7 +430,10 @@
 }
 
 .revised .sodalite .layer0 {
-    background-color: #1414FF;
+    background-color: #3d54ff;
+}
+.revised .sodalite .layer1 {
+    background-color: #210d78;
 }
 
 .revised .aluminium_sulfite .layer0 {
@@ -453,7 +462,10 @@
 }
 
 .revised .spessartine .layer0 {
-    background-color: #FF6464;
+    background-color: #ffa81e;
+}
+.revised .spessartine .layer1 {
+    background-color: #b33700;
 }
 
 .revised .sphalerite .layer0 {
@@ -524,7 +536,10 @@
 }
 
 .revised .uvarovite .layer0 {
-    background-color: #B4ffB4;
+    background-color: #2ded4c;
+}
+.revised .uvarovite .layer1 {
+    background-color: #00697c;
 }
 
 .revised .vanadium_gallium .layer0 {
@@ -563,15 +578,24 @@
 }
 
 .revised .nether_quartz .layer0 {
-    background-color: #E6D2D2;
+    background-color: #f8efe3;
+}
+.revised .nether_quartz .layer1 {
+    background-color: #e6c1bb;
 }
 
 .revised .certus_quartz .layer0 {
-    background-color: #D2D2E6;
+    background-color: #c2d6ff;
+}
+.revised .certus_quartz .layer1 {
+    background-color: #86bacf;
 }
 
 .revised .quartzite .layer0 {
-    background-color: #D2E6D2;
+    background-color: #f2f5ed;
+}
+.revised .quartzite .layer1 {
+    background-color: #b8e2b8;
 }
 
 .revised .graphite .layer0 {
@@ -663,7 +687,10 @@
 }
 
 .revised .silicon_dioxide .layer0 {
-    background-color: #C8C8C8;
+    background-color: #f2f2f2;
+}
+.revised .silicon_dioxide .layer1 {
+    background-color: #b2c4c7;
 }
 
 .revised .magnalium .layer0 {
@@ -845,7 +872,10 @@
 }
 
 .revised .malachite .layer0 {
-    background-color: #055F05;
+    background-color: #00f1b0;
+}
+.revised .malachite .layer1 {
+    background-color: #107a47;
 }
 
 .revised .mica .layer0 {

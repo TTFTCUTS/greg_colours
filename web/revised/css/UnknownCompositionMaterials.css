@@ -317,6 +317,10 @@
 }
 
 .revised .nether_star .layer0 {
+    background-color: #feffc6;
+}
+.revised .nether_star .layer1 {
+    background-color: #7fd7e2;
 }
 
 .revised .endstone .layer0 {
