@@ -53,7 +53,10 @@
 }
 
 .revised .apatite .layer0 {
-    background-color: #C8C8FF;
+    background-color: #06cdf1i;
+}
+.revised .apatite .layer1 {
+    background-color: #701c07;
 }
 
 .revised .black_steel .layer0 {
@@ -154,7 +157,10 @@
 }
 
 .revised .monazite .layer0 {
-    background-color: #324632;
+    background-color: #d0ee98;
+}
+.revised .monazite .layer1 {
+    background-color: #520505;
 }
 
 .revised .mirabilite .layer0 {

@@ -4,7 +4,7 @@ enum ItemSet with EnumName {
   // icons to process for each icon set
   bright(<String>["foil","gear","gear_small","ingot","plate","rotor","screw","spring","spring_small","turbine_blade","wire_fine"]),
   certus(<String>["gem"]),
-  diamond(<String>["gem", "raw_ore"]),
+  diamond(<String>["gem","raw_ore"]),
   dull(allItems),
   emerald(<String>["gem"]),
   fine(<String>["dust","dust_small","dust_tiny","gem","gem_chipped","gem_flawed","raw_ore"]),
